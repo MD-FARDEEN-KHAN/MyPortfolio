@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "ML Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Data Analyst",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Bussiness Analyst",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Researcher",
     icon: creator,
   },
 ];
@@ -116,55 +116,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Data Entry Specialist",
+    company_name: "ARAI",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2024 - Dec 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Labeled and maintained traffic image datasets, including vehicles and other elements, to enhance model training efficiency.",
+      "Annotated traffic data using CVAT to improve model accuracy in detecting objects within traffic environments.",
+      
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Multi Format summarizing Application",
+    company_name: "Open AI",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2024 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "platform to summarize multiple format inputs using AI algorithms and ML models.",
+      "AI techniques to enhance summary accuracy from diverse inputs.",
+      "Integrated multiple ML models using Transformers to generate high-quality summaries across various formats.",
+      "Tech Stack: Python, AI/ML, Flask",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "OpenCV features App",
+    company_name: "OpenCV",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2025 - Feb 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Application to provide real-time show case of OpenCV Applications.",
+      "Developed OpenCV applications, including Face Mesh, Push-Up Counter, Virtual Mouse, and Virtual Keyboard, etc.",
+      "Integrated OpenCV technology to demonstrate its real-world applications.",
+      "Tech Stack: OpenCV, Machine Learning",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Blinkit Sales and Outlet Analysis",
+    company_name: "BlinkIT",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2025 - Feb 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Report showcasing Total Sales, Outlet Performance, Item Category Analysis, and Customer Ratings",
+      "Designed an interactive Power BI dashboard analyzing Total Sales, Number of Items, and Customer Ratings across outlet locations, sizes, and types",
+      "Identified high-performing outlets, key sales drivers, and category-wise revenue distribution for strategic business insights",
+      "Tech Stack: Power BI, SQL",
     ],
   },
 ];
@@ -198,67 +197,64 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Multi Format summarizing Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI techniques to enhance summary accuracy from diverse inputs. Integrated multiple ML models using Transformers to generate high-quality summaries across various formats",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NLP(Transformers)",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/manjunathgoli/saaraansh.git",
   },
   {
-    name: "Job IT",
+    name: "OpenCV features App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed OpenCV applications, including Face Mesh, Push-Up Counter, Virtual Mouse, and Virtual Keyboard. Integrated OpenCV technology to demonstrate its real-world applications.",
     tags: [
       {
-        name: "react",
+        name: "OpenCV",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Machine Learning",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/manjunathgoli/virtual_mouse_opencv.git",
   },
   {
-    name: "Trip Guide",
+    name: "Blinkit Sales and Outlet Analysis",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed an interactive Power BI dashboard analyzing Total Sales, Number of Items, and Customer Ratings across outlet locations, sizes, and types",
     tags: [
       {
-        name: "nextjs",
+        name: "Power BI",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SQL",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/manjunathgoli/blinkit-powerbi.git",
   },
 ];
 
