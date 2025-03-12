@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  weather,
+  hospital,
 } from "../assets";
 
 export const navLinks = [
@@ -255,6 +257,42 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/manjunathgoli/blinkit-powerbi.git",
+  },
+  {
+    name: "Hospital Emergency Room Data Analysis",
+    description:
+      "Designed an interactive Power BI dashboard to analyze ER visit trends, patient flow, and seasonal impact on hospital resources Extracted key insights on busiest hours, wait time variations, and demographic patterns to optimize emergency care efficiency",
+    tags: [
+      {
+        name: "Power BI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: hospital,
+    source_code_link: "https://github.com/manjunathgoli/HOSPITAL-EMERGENCY-ROOM-DASHBOARD_-POWER-BI-.git",
+  },
+  {
+    name: "Weather Api",
+    description:
+      "Designed an interactive Api where you can find temperature, humidity and wind speed of any place on earth",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: weather,
+    source_code_link: "https://github.com/manjunathgoli/apis.git",
   },
 ];
 
