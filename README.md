@@ -30,4 +30,4 @@ An interactive 3D developer portfolio built using **React**, **Three.js**, and *
 git clone https://github.com/MD-FARDEEN-KHAN/MyPortfolio.git
 cd MyPortfolio
 npm install
-npm start
+npm run dev
