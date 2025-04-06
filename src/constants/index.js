@@ -52,7 +52,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Bussiness Analyst",
+    title: "Python Developer",
     icon: backend,
   },
   {
@@ -118,54 +118,49 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data Entry Specialist",
-    company_name: "ARAI",
+    title: "Python Programmming Intern",
+    company_name: "CodeAlpha",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "Oct 2024 - Dec 2024",
+    date: "June 2024 - July 2024",
     points: [
-      " Labeled and maintained traffic image datasets, including vehicles and other elements, to enhance model training efficiency.",
-      "Annotated traffic data using CVAT to improve model accuracy in detecting objects within traffic environments.",
+      "Worked on real-world Python projects involving automation, data handling, and API integration.",
+      "Enhanced coding efficiency and debugging skills while implementing industry best practices.",
       
     ],
   },
   {
-    title: "Multi Format summarizing Application",
-    company_name: "Open AI",
+    title: "Student Ambassador",
+    company_name: "LetsUpgrade",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Nov 2024 - Jan 2025",
+    date: "June 2024 - July 2024",
     points: [
-      "platform to summarize multiple format inputs using AI algorithms and ML models.",
-      "AI techniques to enhance summary accuracy from diverse inputs.",
-      "Integrated multiple ML models using Transformers to generate high-quality summaries across various formats.",
-      "Tech Stack: Python, AI/ML, Flask",
+      "Served as a Student Ambassador at LetsUpgrade, fostering a tech community and promoting learning initiatives.",
+      "Organized workshops and events, engaging students in upskilling opportunities and industry-relevant programs.",
     ],
   },
   {
-    title: "OpenCV features App",
-    company_name: "OpenCV",
+    title: "Artificial Intelligence Intern",
+    company_name: "RAM Infotech",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Feb 2025 - Feb 2025",
+    date: "Nov 2024 - Dec 2024",
     points: [
-      "Application to provide real-time show case of OpenCV Applications.",
-      "Developed OpenCV applications, including Face Mesh, Push-Up Counter, Virtual Mouse, and Virtual Keyboard, etc.",
-      "Integrated OpenCV technology to demonstrate its real-world applications.",
-      "Tech Stack: OpenCV, Machine Learning",
+      "Gained hands-on experience in AI and machine learning, working on real-world projects.",
+      "Developed and optimized AI models using technologies like TensorFlow and PyTorch.",
+      "Enhanced problem-solving skills by implementing AI-driven solutions for various applications.",
     ],
   },
   {
-    title: "Blinkit Sales and Outlet Analysis",
-    company_name: "BlinkIT",
+    title: "Campus Lead",
+    company_name: "EdVenture Park",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Feb 2025 - Feb 2025",
+    date: "Oct 2025 - Present",
     points: [
-      "Report showcasing Total Sales, Outlet Performance, Item Category Analysis, and Customer Ratings",
-      "Designed an interactive Power BI dashboard analyzing Total Sales, Number of Items, and Customer Ratings across outlet locations, sizes, and types",
-      "Identified high-performing outlets, key sales drivers, and category-wise revenue distribution for strategic business insights",
-      "Tech Stack: Power BI, SQL",
+      "Served as a Campus Lead at Edventure Park, representing the IT incubator and fostering student innovation.",
+      "Enhanced collaboration and networking skills by working with startups, industry experts, and tech enthusiasts.",
     ],
   },
 ];
@@ -199,9 +194,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Multi Format summarizing Application",
+    name: "Recommendation System",
     description:
-      "AI techniques to enhance summary accuracy from diverse inputs. Integrated multiple ML models using Transformers to generate high-quality summaries across various formats",
+      "A Recommendation System is an AI-driven model that analyzes user behavior and preferences to suggest relevant items, such as products, movies, or content.",
     tags: [
       {
         name: "Python",
@@ -217,15 +212,15 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/manjunathgoli/saaraansh.git",
+    source_code_link: "https://github.com/MD-FARDEEN-KHAN/Recommendation-system-",
   },
   {
-    name: "OpenCV features App",
+    name: "Speech Recogniton System",
     description:
-      "Developed OpenCV applications, including Face Mesh, Push-Up Counter, Virtual Mouse, and Virtual Keyboard. Integrated OpenCV technology to demonstrate its real-world applications.",
+      "Developed a real-time speech-to-text application using deep learning techniques, enabling seamless voice command execution and improved accessibility.",
     tags: [
       {
-        name: "OpenCV",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
@@ -233,38 +228,42 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Flask",
+        name: "Deep Learning",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/manjunathgoli/virtual_mouse_opencv.git",
+    source_code_link: "https://github.com/MD-FARDEEN-KHAN/Speech-recognition-",
   },
   {
-    name: "Blinkit Sales and Outlet Analysis",
+    name: "Jarvis AI Assistant",
     description:
-      "Designed an interactive Power BI dashboard analyzing Total Sales, Number of Items, and Customer Ratings across outlet locations, sizes, and types",
+      "Created a personalized virtual assistant capable of handling tasks like web search, voice commands, and reminders, offering a hands-free productivity boost.",
     tags: [
       {
-        name: "Power BI",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "SQL",
+        name: "Machine Learning",
         color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
       },
       
     ],
     image: tripguide,
-    source_code_link: "https://github.com/manjunathgoli/blinkit-powerbi.git",
+    source_code_link: "https://github.com/MD-FARDEEN-KHAN/Jarvis",
   },
   {
-    name: "Hospital Emergency Room Data Analysis",
+    name: "Stock Portfolio Tracker",
     description:
-      "Designed an interactive Power BI dashboard to analyze ER visit trends, patient flow, and seasonal impact on hospital resources Extracted key insights on busiest hours, wait time variations, and demographic patterns to optimize emergency care efficiency",
+      "Designed a responsive tracker that visualizes real-time stock performance and analytics, helping users make informed investment decisions with ease.",
     tags: [
       {
-        name: "Power BI",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
@@ -274,25 +273,25 @@ const projects = [
       
     ],
     image: hospital,
-    source_code_link: "https://github.com/manjunathgoli/HOSPITAL-EMERGENCY-ROOM-DASHBOARD_-POWER-BI-.git",
+    source_code_link: "https://github.com/MD-FARDEEN-KHAN/Stock-portfolio-tracker",
   },
   {
-    name: "Weather Api",
+    name: "WasteX",
     description:
-      "Designed an interactive Api where you can find temperature, humidity and wind speed of any place on earth",
+      "A smart React-based platform designed to streamline waste management by enabling users to report waste issues, manage society registrations, and promote cleaner, greener communities.",
     tags: [
       {
-        name: "HTML",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Vite",
         color: "green-text-gradient",
       },
       
     ],
     image: weather,
-    source_code_link: "https://github.com/manjunathgoli/apis.git",
+    source_code_link: "https://github.com/MD-FARDEEN-KHAN/WasteX",
   },
 ];
 

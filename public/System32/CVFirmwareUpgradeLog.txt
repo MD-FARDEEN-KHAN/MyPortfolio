@@ -1,0 +1,1561 @@
+Sunday June 18, 2023 00:54:11: Command - FWUpgrade
+Sunday June 18, 2023 00:54:11: There is no FW upgrade count reg key
+Sunday June 18, 2023 00:54:11: Stopping the service: WbioSrvc 
+Sunday June 18, 2023 00:54:11: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday June 18, 2023 00:54:11: Event: eventIndx: 0, Handle: 28c 
+Sunday June 18, 2023 00:54:11: Event: eventIndx: 1, Handle: 290 
+Sunday June 18, 2023 00:54:11: Event: eventIndx: 2, Handle: 294 
+Sunday June 18, 2023 00:54:11: Event: eventIndx: 3, Handle: 298 
+Sunday June 18, 2023 00:54:11: Event: eventIndx: 4, Handle: 29c 
+Sunday June 18, 2023 00:54:16: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:54:16: Updating ControlVault firmware from 4.9.7.0 to 4.6.22.0
+Sunday June 18, 2023 00:54:16: Event: FwUpgradeStarted: 1, Handle: 290 
+Sunday June 18, 2023 00:54:16: Control Vault getting chip type
+Sunday June 18, 2023 00:54:16: Found ControlVault Chip Type: Lynx B0 CID7
+Sunday June 18, 2023 00:54:16: Event: FwUpgradeInProgress: 2, Handle: 294 
+Sunday June 18, 2023 00:54:16: Going to update SBI (sbiLynxB0_7.otp)
+Sunday June 18, 2023 00:54:16: Writing C:\Program Files\Broadcom\USHFirmware\sbiLynxB0_7.otp to flash
+Sunday June 18, 2023 00:54:20: cv_flash_update() successful
+Sunday June 18, 2023 00:54:20: BCM Update attempt 1
+Sunday June 18, 2023 00:54:20: Event: FwUpgradeInProgress: 2, Handle: 294 
+Sunday June 18, 2023 00:54:20: Going to clear SCD
+Sunday June 18, 2023 00:54:20: Writing C:\Program Files\Broadcom\USHFirmware\clearscd.bin to flash
+Sunday June 18, 2023 00:54:20: cv_flash_update() successful
+Sunday June 18, 2023 00:54:20: Going to Reset to SBI
+Sunday June 18, 2023 00:54:20: Event: FwUpgradeInProgress: 2, Handle: 294 
+Sunday June 18, 2023 00:54:20: Waiting for Control Vault to comeback from reset
+Sunday June 18, 2023 00:54:23: cvif_IsUsh (0x100003)
+
+Sunday June 18, 2023 00:54:29: Command - FWUpgrade
+Sunday June 18, 2023 00:54:29: There is no FW upgrade count reg key
+Sunday June 18, 2023 00:54:29: Stopping the service: WbioSrvc 
+Sunday June 18, 2023 00:54:29: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday June 18, 2023 00:54:29: Event: eventIndx: 0, Handle: 26c 
+Sunday June 18, 2023 00:54:29: Event: eventIndx: 1, Handle: 270 
+Sunday June 18, 2023 00:54:29: Event: eventIndx: 2, Handle: 274 
+Sunday June 18, 2023 00:54:29: Event: eventIndx: 3, Handle: 278 
+Sunday June 18, 2023 00:54:29: Event: eventIndx: 4, Handle: 27c 
+Sunday June 18, 2023 00:54:34: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:54:34: Updating ControlVault firmware from ??? to 4.6.22.0
+Sunday June 18, 2023 00:54:34: Event: FwUpgradeStarted: 1, Handle: 270 
+Sunday June 18, 2023 00:54:34: Control Vault getting chip type
+Sunday June 18, 2023 00:54:34: Found ControlVault Chip Type: Lynx B0 CID7
+Sunday June 18, 2023 00:54:34: Event: FwUpgradeInProgress: 2, Handle: 274 
+Sunday June 18, 2023 00:54:34: Going to update SBI (sbiLynxB0_7.otp)
+Sunday June 18, 2023 00:54:34: Writing C:\Program Files\Broadcom\USHFirmware\sbiLynxB0_7.otp to flash
+Sunday June 18, 2023 00:54:39: cv_flash_update() successful
+Sunday June 18, 2023 00:54:39: BCM Update attempt 1
+Sunday June 18, 2023 00:54:39: Event: FwUpgradeInProgress: 2, Handle: 274 
+Sunday June 18, 2023 00:54:39: Going to clear SCD
+Sunday June 18, 2023 00:54:39: Writing C:\Program Files\Broadcom\USHFirmware\clearscd.bin to flash
+Sunday June 18, 2023 00:54:39: cv_flash_update() successful
+Sunday June 18, 2023 00:54:39: Going to Reset to SBI
+Sunday June 18, 2023 00:54:39: Event: FwUpgradeInProgress: 2, Handle: 274 
+Sunday June 18, 2023 00:54:39: Waiting for Control Vault to comeback from reset
+Sunday June 18, 2023 00:54:42: cvif_IsUsh (0x100003)
+Sunday June 18, 2023 00:55:01: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:55:01: Going to update BCM (bcmLynx_7.otp)
+Sunday June 18, 2023 00:55:01: Event: FwUpgradeInProgress: 2, Handle: 274 
+Sunday June 18, 2023 00:55:01: cv_open() return status: 0x50
+Sunday June 18, 2023 00:55:01: Going to update the BCM with C:\Program Files\Broadcom\USHFirmware\bcmLynx_7.otp
+Sunday June 18, 2023 00:55:01: Please wait, this may take up to one minute
+
+Sunday June 18, 2023 00:56:32: Command - FWUpgrade
+Sunday June 18, 2023 00:56:32: There is no FW upgrade count reg key
+Sunday June 18, 2023 00:56:32: Stopping the service: WbioSrvc 
+Sunday June 18, 2023 00:56:32: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday June 18, 2023 00:56:32: Event: eventIndx: 0, Handle: 250 
+Sunday June 18, 2023 00:56:32: Event: eventIndx: 1, Handle: 258 
+Sunday June 18, 2023 00:56:32: Event: eventIndx: 2, Handle: 278 
+Sunday June 18, 2023 00:56:32: Event: eventIndx: 3, Handle: 27c 
+Sunday June 18, 2023 00:56:32: Event: eventIndx: 4, Handle: 280 
+Sunday June 18, 2023 00:56:37: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:56:37: Updating ControlVault firmware from ??? to 4.6.22.0
+Sunday June 18, 2023 00:56:37: Event: FwUpgradeStarted: 1, Handle: 258 
+Sunday June 18, 2023 00:56:37: Control Vault getting chip type
+Sunday June 18, 2023 00:56:37: Found ControlVault Chip Type: Lynx B0 CID7
+Sunday June 18, 2023 00:56:37: Event: FwUpgradeInProgress: 2, Handle: 278 
+Sunday June 18, 2023 00:56:37: Going to update SBI (sbiLynxB0_7.otp)
+Sunday June 18, 2023 00:56:37: Writing C:\Program Files\Broadcom\USHFirmware\sbiLynxB0_7.otp to flash
+Sunday June 18, 2023 00:56:43: cv_flash_update() successful
+Sunday June 18, 2023 00:56:43: BCM Update attempt 1
+Sunday June 18, 2023 00:56:43: Event: FwUpgradeInProgress: 2, Handle: 278 
+Sunday June 18, 2023 00:56:43: Going to clear SCD
+Sunday June 18, 2023 00:56:43: Writing C:\Program Files\Broadcom\USHFirmware\clearscd.bin to flash
+Sunday June 18, 2023 00:56:44: cv_flash_update() successful
+Sunday June 18, 2023 00:56:44: Going to Reset to SBI
+Sunday June 18, 2023 00:56:44: Event: FwUpgradeInProgress: 2, Handle: 278 
+Sunday June 18, 2023 00:56:44: Waiting for Control Vault to comeback from reset
+Sunday June 18, 2023 00:56:47: cvif_IsUsh (0x100003)
+Sunday June 18, 2023 00:57:06: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:57:06: Going to update BCM (bcmLynx_7.otp)
+Sunday June 18, 2023 00:57:06: Event: FwUpgradeInProgress: 2, Handle: 278 
+Sunday June 18, 2023 00:57:06: cv_open() return status: 0x50
+Sunday June 18, 2023 00:57:06: Going to update the BCM with C:\Program Files\Broadcom\USHFirmware\bcmLynx_7.otp
+Sunday June 18, 2023 00:57:06: Please wait, this may take up to one minute
+Sunday June 18, 2023 00:57:59: Firmware Upgrade Complete
+Sunday June 18, 2023 00:57:59: Going to Reset Control Vault
+Sunday June 18, 2023 00:57:59: Event: FwUpgradeInProgress: 2, Handle: 278 
+Sunday June 18, 2023 00:57:59: Set the Upgarde State in FirmwareUpgardeStatus reg key
+Sunday June 18, 2023 00:57:59: Waiting for Control Vault to comeback from reset
+Sunday June 18, 2023 00:58:04: cvif_IsUsh (0x100003)
+Sunday June 18, 2023 00:58:10: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:58:10: Opening CV session
+Sunday June 18, 2023 00:58:10: Event: FwUpgradeInProgress: 2, Handle: 278 
+Sunday June 18, 2023 00:58:10: Control Vault firmware upgrade successful
+Sunday June 18, 2023 00:58:10: Event: FwUpgradeInProgress: 2, Handle: 278 
+Sunday June 18, 2023 00:58:10: FirmwareUpgardeStatus value is SET. USH Might got FW upgraded & RE-STARTED. Need to do cvRemainingFwUpgardeSteps
+Sunday June 18, 2023 00:58:10: Waiting for Control Vault to comeback from reset
+Sunday June 18, 2023 00:58:11: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:58:11: CID After Successful Upgrade: 0x7
+Sunday June 18, 2023 00:58:11: Opening CV session
+Sunday June 18, 2023 00:58:11: Going to Reset Control Vault
+Sunday June 18, 2023 00:58:11: Waiting for Control Vault to comeback from reset
+Sunday June 18, 2023 00:58:16: cvif_IsUsh (0x100003)
+Sunday June 18, 2023 00:58:21: cvif_IsUsh (0x0)
+Sunday June 18, 2023 00:58:21: Control Vault firmware upgrade successful
+Sunday June 18, 2023 00:58:21: Remaining FW UpgardeSteps execution Status 0x0
+Sunday June 18, 2023 00:58:21: Re-Install Drivers as PIDs change could cause issue due to the new FW upgrade 
+Sunday June 18, 2023 00:58:22: UpdateDriversAfterFWUpgrade: ushwbfdrv.inf
+Sunday June 18, 2023 00:58:22: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Sunday June 18, 2023 00:58:22: INSTALL driver package from DRIVERSTORE: SUCCESS
+Sunday June 18, 2023 00:58:22: UpdateDriversAfterFWUpgrade: bcmccid.inf
+Sunday June 18, 2023 00:58:22: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Sunday June 18, 2023 00:58:22: UpdateDriversAfterFWUpgrade: bcmnfcusb.inf
+Sunday June 18, 2023 00:58:22: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Sunday June 18, 2023 00:58:22: INSTALL driver package from DRIVERSTORE: SUCCESS
+Sunday June 18, 2023 00:58:23: UpdateDriversAfterFWUpgrade: bcmnfcser.inf
+Sunday June 18, 2023 00:58:23: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Sunday June 18, 2023 00:58:23: INSTALL driver package from DRIVERSTORE: SUCCESS
+Sunday June 18, 2023 00:58:23: UpdateDriversAfterFWUpgrade: bcmnfcusb7.inf
+Sunday June 18, 2023 00:58:23: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Sunday June 18, 2023 00:58:23: UpdateDriversAfterFWUpgrade: bcmnfcscr7.inf
+Sunday June 18, 2023 00:58:23: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Sunday June 18, 2023 00:58:23: UpdateDriversAfterFWUpgrade: bcmnfcser7.inf
+Sunday June 18, 2023 00:58:23: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Sunday June 18, 2023 00:58:23: Re-Install Drivers COMPLETED 
+Sunday June 18, 2023 00:58:23: Deleting FirmwareUpgardeStatus reg key. Status 0x0
+Sunday June 18, 2023 00:58:23: Event: FwUpgradeFinished: 3, Handle: 27c 
+Sunday June 18, 2023 00:58:23: Finished
+
+
+Sunday June 18, 2023 01:09:04: Command - FWUpgrade
+Sunday June 18, 2023 01:09:04: Stopping the service: WbioSrvc 
+Sunday June 18, 2023 01:09:04: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday June 18, 2023 01:09:04: Event: eventIndx: 0, Handle: 25c 
+Sunday June 18, 2023 01:09:04: Event: eventIndx: 1, Handle: 260 
+Sunday June 18, 2023 01:09:04: Event: eventIndx: 2, Handle: 264 
+Sunday June 18, 2023 01:09:04: Event: eventIndx: 3, Handle: 268 
+Sunday June 18, 2023 01:09:04: Event: eventIndx: 4, Handle: 26c 
+Sunday June 18, 2023 01:09:09: cvif_IsUsh (0x0)
+Sunday June 18, 2023 01:09:09: The version matches - it is up do date
+Sunday June 18, 2023 01:09:09: There is no FirmwareUpgardeStatus reg key
+Sunday June 18, 2023 01:09:09: Will not update ControlVault firmware from 4.6.22.0 to 4.6.22.0 because it's up to date
+Sunday June 18, 2023 01:09:09: Event: FwUpgradeNotRequired: 0, Handle: 25c 
+Sunday June 18, 2023 01:09:09: There is no FirmwareUpgardeStatus reg key
+Sunday June 18, 2023 01:09:09: Finished
+
+
+Sunday June 18, 2023 01:10:43: Command - FWUpgrade
+Sunday June 18, 2023 01:10:43: Stopping the service: WbioSrvc 
+Sunday June 18, 2023 01:10:43: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday June 18, 2023 01:10:43: Event: eventIndx: 0, Handle: 288 
+Sunday June 18, 2023 01:10:43: Event: eventIndx: 1, Handle: 28c 
+Sunday June 18, 2023 01:10:43: Event: eventIndx: 2, Handle: 290 
+Sunday June 18, 2023 01:10:43: Event: eventIndx: 3, Handle: 294 
+Sunday June 18, 2023 01:10:43: Event: eventIndx: 4, Handle: 298 
+Sunday June 18, 2023 01:10:48: cvif_IsUsh (0x0)
+Sunday June 18, 2023 01:10:48: The version matches - it is up do date
+Sunday June 18, 2023 01:10:48: There is no FirmwareUpgardeStatus reg key
+Sunday June 18, 2023 01:10:48: Will not update ControlVault firmware from 4.6.22.0 to 4.6.22.0 because it's up to date
+Sunday June 18, 2023 01:10:48: Event: FwUpgradeNotRequired: 0, Handle: 288 
+Sunday June 18, 2023 01:10:48: There is no FirmwareUpgardeStatus reg key
+Sunday June 18, 2023 01:10:48: Finished
+
+
+Sunday June 18, 2023 01:16:54: Command - FWUpgrade
+Sunday June 18, 2023 01:16:54: Stopping the service: WbioSrvc 
+Sunday June 18, 2023 01:16:54: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday June 18, 2023 01:16:54: Event: eventIndx: 0, Handle: 198 
+Sunday June 18, 2023 01:16:54: Event: eventIndx: 1, Handle: 19c 
+Sunday June 18, 2023 01:16:54: Event: eventIndx: 2, Handle: 1a0 
+Sunday June 18, 2023 01:16:54: Event: eventIndx: 3, Handle: 1c0 
+Sunday June 18, 2023 01:16:54: Event: eventIndx: 4, Handle: 264 
+Sunday June 18, 2023 01:16:59: cvif_IsUsh (0x0)
+Sunday June 18, 2023 01:16:59: The version matches - it is up do date
+Sunday June 18, 2023 01:16:59: There is no FirmwareUpgardeStatus reg key
+Sunday June 18, 2023 01:16:59: Will not update ControlVault firmware from 4.6.22.0 to 4.6.22.0 because it's up to date
+Sunday June 18, 2023 01:16:59: Event: FwUpgradeNotRequired: 0, Handle: 198 
+Sunday June 18, 2023 01:16:59: There is no FirmwareUpgardeStatus reg key
+Sunday June 18, 2023 01:16:59: Finished
+
+
+Monday June 19, 2023 01:45:15: Command - FWUpgrade
+Monday June 19, 2023 01:45:15: Stopping the service: WbioSrvc 
+Monday June 19, 2023 01:45:15: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 01:45:15: Event: eventIndx: 0, Handle: 18c 
+Monday June 19, 2023 01:45:15: Event: eventIndx: 1, Handle: 190 
+Monday June 19, 2023 01:45:15: Event: eventIndx: 2, Handle: 19c 
+Monday June 19, 2023 01:45:15: Event: eventIndx: 3, Handle: 260 
+Monday June 19, 2023 01:45:15: Event: eventIndx: 4, Handle: 268 
+Monday June 19, 2023 01:45:21: cvif_IsUsh (0x0)
+Monday June 19, 2023 01:45:21: The version matches - it is up do date
+Monday June 19, 2023 01:45:21: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 01:45:21: Will not update ControlVault firmware from 4.6.22.0 to 4.6.22.0 because it's up to date
+Monday June 19, 2023 01:45:21: Event: FwUpgradeNotRequired: 0, Handle: 18c 
+Monday June 19, 2023 01:45:21: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 01:45:21: Finished
+
+
+Monday June 19, 2023 04:31:59: Command - FWUpgrade
+Monday June 19, 2023 04:31:59: Stopping the service: WbioSrvc 
+Monday June 19, 2023 04:31:59: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 04:31:59: Event: eventIndx: 0, Handle: 260 
+Monday June 19, 2023 04:31:59: Event: eventIndx: 1, Handle: 268 
+Monday June 19, 2023 04:31:59: Event: eventIndx: 2, Handle: 264 
+Monday June 19, 2023 04:31:59: Event: eventIndx: 3, Handle: 28c 
+Monday June 19, 2023 04:31:59: Event: eventIndx: 4, Handle: 1c4 
+Monday June 19, 2023 04:32:04: cvif_IsUsh (0x0)
+Monday June 19, 2023 04:32:04: The version matches - it is up do date
+Monday June 19, 2023 04:32:04: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 04:32:04: Will not update ControlVault firmware from 4.6.22.0 to 4.6.22.0 because it's up to date
+Monday June 19, 2023 04:32:04: Event: FwUpgradeNotRequired: 0, Handle: 260 
+Monday June 19, 2023 04:32:04: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 04:32:04: Finished
+
+
+Monday June 19, 2023 05:12:15: Command - FWUpgrade
+Monday June 19, 2023 05:12:15: Stopping the service: WbioSrvc 
+Monday June 19, 2023 05:12:15: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 05:12:15: Event: eventIndx: 0, Handle: 1c8 
+Monday June 19, 2023 05:12:15: Event: eventIndx: 1, Handle: 254 
+Monday June 19, 2023 05:12:15: Event: eventIndx: 2, Handle: 280 
+Monday June 19, 2023 05:12:15: Event: eventIndx: 3, Handle: 248 
+Monday June 19, 2023 05:12:15: Event: eventIndx: 4, Handle: 190 
+Monday June 19, 2023 05:12:20: cvif_IsUsh (0x0)
+Monday June 19, 2023 05:12:20: The version matches - it is up do date
+Monday June 19, 2023 05:12:20: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 05:12:20: Will not update ControlVault firmware from 4.6.22.0 to 4.6.22.0 because it's up to date
+Monday June 19, 2023 05:12:20: Event: FwUpgradeNotRequired: 0, Handle: 1c8 
+Monday June 19, 2023 05:12:20: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 05:12:20: Finished
+
+
+Monday June 19, 2023 09:52:21: Command - FWUpgrade
+Monday June 19, 2023 09:52:21: Stopping the service: WbioSrvc 
+Monday June 19, 2023 09:52:21: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 09:52:21: Event: eventIndx: 0, Handle: 1c4 
+Monday June 19, 2023 09:52:21: Event: eventIndx: 1, Handle: 188 
+Monday June 19, 2023 09:52:21: Event: eventIndx: 2, Handle: 18c 
+Monday June 19, 2023 09:52:21: Event: eventIndx: 3, Handle: 1d0 
+Monday June 19, 2023 09:52:21: Event: eventIndx: 4, Handle: 268 
+Monday June 19, 2023 09:52:26: cvif_IsUsh (0x0)
+Monday June 19, 2023 09:52:26: The version matches - it is up do date
+Monday June 19, 2023 09:52:26: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 09:52:26: Will not update ControlVault firmware from 4.6.22.0 to 4.6.22.0 because it's up to date
+Monday June 19, 2023 09:52:26: Event: FwUpgradeNotRequired: 0, Handle: 1c4 
+Monday June 19, 2023 09:52:26: There is no FirmwareUpgardeStatus reg key
+Monday June 19, 2023 09:52:26: Finished
+
+
+Monday June 19, 2023 09:53:11: Command - FWUpgrade
+Monday June 19, 2023 09:53:11: Stopping the service: WbioSrvc 
+Monday June 19, 2023 09:53:11: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 09:53:11: Event: eventIndx: 0, Handle: 1e0 
+Monday June 19, 2023 09:53:11: Event: eventIndx: 1, Handle: 1a4 
+Monday June 19, 2023 09:53:11: Event: eventIndx: 2, Handle: 1a8 
+Monday June 19, 2023 09:53:11: Event: eventIndx: 3, Handle: 1b4 
+Monday June 19, 2023 09:53:11: Event: eventIndx: 4, Handle: 280 
+Monday June 19, 2023 09:53:16: cvif_IsUsh (0x0)
+Monday June 19, 2023 09:53:16: Updating ControlVault firmware from 0.46.22.0 to 4.12.1.0
+Monday June 19, 2023 09:53:16: Event: FwUpgradeStarted: 1, Handle: 1a4 
+Monday June 19, 2023 09:53:16: Control Vault getting chip type
+Monday June 19, 2023 09:53:16: Found ControlVault Chip Type: Lynx B0 CID7
+Monday June 19, 2023 09:53:16: Event: FwUpgradeInProgress: 2, Handle: 1a8 
+Monday June 19, 2023 09:53:16: Going to update SBI (sbiLynxB0_7.otp)
+Monday June 19, 2023 09:53:16: Writing C:\Windows\system32\sbiLynxB0_7.otp to flash
+Monday June 19, 2023 09:53:20: cv_flash_update() successful
+Monday June 19, 2023 09:53:20: BCM Update attempt 1
+Monday June 19, 2023 09:53:20: Event: FwUpgradeInProgress: 2, Handle: 1a8 
+Monday June 19, 2023 09:53:20: Going to clear SCD
+Monday June 19, 2023 09:53:20: Writing C:\Windows\system32\clearscd.bin to flash
+Monday June 19, 2023 09:53:20: cv_flash_update() successful
+Monday June 19, 2023 09:53:20: Going to Reset to SBI
+Monday June 19, 2023 09:53:20: Event: FwUpgradeInProgress: 2, Handle: 1a8 
+Monday June 19, 2023 09:53:20: Waiting for Control Vault to comeback from reset
+Monday June 19, 2023 09:53:23: cvif_IsUsh (0x100003)
+
+Monday June 19, 2023 09:53:29: Command - FWUpgrade
+Monday June 19, 2023 09:53:29: Stopping the service: WbioSrvc 
+Monday June 19, 2023 09:53:29: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 09:53:29: Event: eventIndx: 0, Handle: 28c 
+Monday June 19, 2023 09:53:29: Event: eventIndx: 1, Handle: 290 
+Monday June 19, 2023 09:53:29: Event: eventIndx: 2, Handle: 294 
+Monday June 19, 2023 09:53:29: Event: eventIndx: 3, Handle: 298 
+Monday June 19, 2023 09:53:29: Event: eventIndx: 4, Handle: 29c 
+Monday June 19, 2023 09:53:34: cvif_IsUsh (0x0)
+Monday June 19, 2023 09:53:34: Updating ControlVault firmware from ??? to 4.12.1.0
+Monday June 19, 2023 09:53:34: Event: FwUpgradeStarted: 1, Handle: 290 
+Monday June 19, 2023 09:53:34: Control Vault getting chip type
+Monday June 19, 2023 09:53:34: Found ControlVault Chip Type: Lynx B0 CID7
+Monday June 19, 2023 09:53:34: Event: FwUpgradeInProgress: 2, Handle: 294 
+Monday June 19, 2023 09:53:34: Going to update SBI (sbiLynxB0_7.otp)
+Monday June 19, 2023 09:53:34: Writing C:\Windows\system32\sbiLynxB0_7.otp to flash
+Monday June 19, 2023 09:53:39: cv_flash_update() successful
+Monday June 19, 2023 09:53:39: BCM Update attempt 1
+Monday June 19, 2023 09:53:39: Event: FwUpgradeInProgress: 2, Handle: 294 
+Monday June 19, 2023 09:53:39: Going to clear SCD
+Monday June 19, 2023 09:53:39: Writing C:\Windows\system32\clearscd.bin to flash
+Monday June 19, 2023 09:53:39: cv_flash_update() successful
+Monday June 19, 2023 09:53:39: Going to Reset to SBI
+Monday June 19, 2023 09:53:39: Event: FwUpgradeInProgress: 2, Handle: 294 
+Monday June 19, 2023 09:53:39: Waiting for Control Vault to comeback from reset
+Monday June 19, 2023 09:53:42: cvif_IsUsh (0x100003)
+Monday June 19, 2023 09:53:55: cvif_IsUsh (0x100003)
+Monday June 19, 2023 09:58:40: logfile already open (null)
+Monday June 19, 2023 09:58:40: Stopping the service: WbioSrvc 
+Monday June 19, 2023 09:58:40: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 09:58:40: Event: eventIndx: 0, Handle: 508 
+Monday June 19, 2023 09:58:40: Event: eventIndx: 1, Handle: 4fc 
+Monday June 19, 2023 09:58:40: Event: eventIndx: 2, Handle: 514 
+Monday June 19, 2023 09:58:40: Event: eventIndx: 3, Handle: 50c 
+Monday June 19, 2023 09:58:40: Event: eventIndx: 4, Handle: 524 
+Monday June 19, 2023 09:58:45: cvif_IsUsh (0x0)
+Monday June 19, 2023 09:58:45: Updating ControlVault firmware from ??? to 4.12.1.0
+Monday June 19, 2023 09:58:45: Event: FwUpgradeStarted: 1, Handle: 4fc 
+Monday June 19, 2023 09:58:46: Control Vault getting chip type
+Monday June 19, 2023 09:58:46: Found ControlVault Chip Type: Lynx B0 CID7
+Monday June 19, 2023 09:58:46: Event: FwUpgradeInProgress: 2, Handle: 514 
+Monday June 19, 2023 09:58:46: Going to update SBI (sbiLynxB0_7.otp)
+Monday June 19, 2023 09:58:46: Writing C:\Windows\system32\sbiLynxB0_7.otp to flash
+Monday June 19, 2023 09:58:50: cv_flash_update() successful
+Monday June 19, 2023 09:58:50: BCM Update attempt 1
+Monday June 19, 2023 09:58:50: Event: FwUpgradeInProgress: 2, Handle: 514 
+Monday June 19, 2023 09:58:50: Going to clear SCD
+Monday June 19, 2023 09:58:50: Writing C:\Windows\system32\clearscd.bin to flash
+Monday June 19, 2023 09:58:51: cv_flash_update() successful
+Monday June 19, 2023 09:58:51: Going to Reset to SBI
+Monday June 19, 2023 09:58:51: Event: FwUpgradeInProgress: 2, Handle: 514 
+Monday June 19, 2023 09:58:51: Waiting for Control Vault to comeback from reset
+Monday June 19, 2023 09:58:53: cvif_IsUsh (0x100003)
+Monday June 19, 2023 09:59:12: cvif_IsUsh (0x0)
+Monday June 19, 2023 09:59:12: Going to update BCM (bcmLynx_7.otp)
+Monday June 19, 2023 09:59:12: Event: FwUpgradeInProgress: 2, Handle: 514 
+Monday June 19, 2023 09:59:12: cv_open() return status: 0x50
+Monday June 19, 2023 09:59:12: Going to update the BCM with C:\Windows\system32\bcmLynx_7.otp
+Monday June 19, 2023 09:59:12: Please wait, this may take up to one minute
+Monday June 19, 2023 09:59:12: Error: 0x100004 from cv_firmware_upgrade()
+Monday June 19, 2023 09:59:12: Firmware upgrade command submission failed - will not be retried
+Monday June 19, 2023 09:59:12: Failed. Return code: 20 Set number of failed FW upgrades to 2
+
+Monday June 19, 2023 09:59:12: Event: FwUpgradeError: 4, Handle: 524 
+
+Monday June 19, 2023 10:08:14: Command - FWUpgrade
+Monday June 19, 2023 10:08:14: Stopping the service: WbioSrvc 
+Monday June 19, 2023 10:08:14: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday June 19, 2023 10:08:14: Event: eventIndx: 0, Handle: 188 
+Monday June 19, 2023 10:08:14: Event: eventIndx: 1, Handle: 18c 
+Monday June 19, 2023 10:08:14: Event: eventIndx: 2, Handle: 1a0 
+Monday June 19, 2023 10:08:14: Event: eventIndx: 3, Handle: 254 
+Monday June 19, 2023 10:08:14: Event: eventIndx: 4, Handle: 25c 
+Monday June 19, 2023 10:08:19: cvif_IsUsh (0x0)
+Monday June 19, 2023 10:08:19: Updating ControlVault firmware from ??? to 4.12.1.0
+Monday June 19, 2023 10:08:19: Event: FwUpgradeStarted: 1, Handle: 18c 
+Monday June 19, 2023 10:08:19: Control Vault getting chip type
+Monday June 19, 2023 10:08:19: Found ControlVault Chip Type: Lynx B0 CID7
+Monday June 19, 2023 10:08:19: Event: FwUpgradeInProgress: 2, Handle: 1a0 
+Monday June 19, 2023 10:08:19: Going to update SBI (sbiLynxB0_7.otp)
+Monday June 19, 2023 10:08:19: Writing C:\Windows\system32\sbiLynxB0_7.otp to flash
+Monday June 19, 2023 10:08:25: cv_flash_update() successful
+Monday June 19, 2023 10:08:25: BCM Update attempt 1
+Monday June 19, 2023 10:08:25: Event: FwUpgradeInProgress: 2, Handle: 1a0 
+Monday June 19, 2023 10:08:25: Going to clear SCD
+Monday June 19, 2023 10:08:25: Writing C:\Windows\system32\clearscd.bin to flash
+Monday June 19, 2023 10:08:25: cv_flash_update() successful
+Monday June 19, 2023 10:08:25: Going to Reset to SBI
+Monday June 19, 2023 10:08:25: Event: FwUpgradeInProgress: 2, Handle: 1a0 
+Monday June 19, 2023 10:08:25: Waiting for Control Vault to comeback from reset
+Monday June 19, 2023 10:08:28: cvif_IsUsh (0x100003)
+Monday June 19, 2023 10:08:35: cvif_IsUsh (0x0)
+Monday June 19, 2023 10:08:35: Going to update BCM (bcmLynx_7.otp)
+Monday June 19, 2023 10:08:35: Event: FwUpgradeInProgress: 2, Handle: 1a0 
+Monday June 19, 2023 10:08:35: cv_open() return status: 0x50
+Monday June 19, 2023 10:08:35: Going to update the BCM with C:\Windows\system32\bcmLynx_7.otp
+Monday June 19, 2023 10:08:35: Please wait, this may take up to one minute
+Monday June 19, 2023 10:09:38: Firmware Upgrade Complete
+Monday June 19, 2023 10:09:38: Going to Reset Control Vault
+Monday June 19, 2023 10:09:38: Event: FwUpgradeInProgress: 2, Handle: 1a0 
+Monday June 19, 2023 10:09:38: Set the Upgarde State in FirmwareUpgardeStatus reg key
+Monday June 19, 2023 10:09:38: Waiting for Control Vault to comeback from reset
+Monday June 19, 2023 10:09:43: cvif_IsUsh (0x100003)
+Monday June 19, 2023 10:09:48: cvif_IsUsh (0x0)
+Monday June 19, 2023 10:09:48: Opening CV session
+Monday June 19, 2023 10:09:48: Event: FwUpgradeInProgress: 2, Handle: 1a0 
+Monday June 19, 2023 10:09:48: Control Vault firmware upgrade successful
+Monday June 19, 2023 10:09:48: Event: FwUpgradeInProgress: 2, Handle: 1a0 
+Monday June 19, 2023 10:09:48: FirmwareUpgardeStatus value is SET. USH Might got FW upgraded & RE-STARTED. Need to do cvRemainingFwUpgardeSteps
+Monday June 19, 2023 10:09:48: Waiting for Control Vault to comeback from reset
+Monday June 19, 2023 10:09:49: cvif_IsUsh (0x0)
+Monday June 19, 2023 10:09:49: CID After Successful Upgrade: 0x7
+Monday June 19, 2023 10:09:49: Opening CV session
+Monday June 19, 2023 10:09:49: Going to Reset Control Vault
+Monday June 19, 2023 10:09:49: Waiting for Control Vault to comeback from reset
+Monday June 19, 2023 10:09:54: cvif_IsUsh (0x100003)
+Monday June 19, 2023 10:09:59: cvif_IsUsh (0x0)
+Monday June 19, 2023 10:09:59: Control Vault firmware upgrade successful
+Monday June 19, 2023 10:09:59: Remaining FW UpgardeSteps execution Status 0x0
+Monday June 19, 2023 10:09:59: Re-Install Drivers as PIDs change could cause issue due to the new FW upgrade 
+Monday June 19, 2023 10:10:00: UpdateDriversAfterFWUpgrade: ushwbfdrv.inf
+Monday June 19, 2023 10:10:00: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Monday June 19, 2023 10:10:00: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Monday June 19, 2023 10:10:00: INSTALL driver package from DRIVERSTORE: SUCCESS
+Monday June 19, 2023 10:10:00: UpdateDriversAfterFWUpgrade: bcmccid.inf
+Monday June 19, 2023 10:10:00: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Monday June 19, 2023 10:10:00: UpdateDriversAfterFWUpgrade: bcmnfcusb.inf
+Monday June 19, 2023 10:10:00: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Monday June 19, 2023 10:10:00: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Monday June 19, 2023 10:10:00: INSTALL driver package from DRIVERSTORE: SUCCESS
+Monday June 19, 2023 10:10:01: UpdateDriversAfterFWUpgrade: bcmnfcser.inf
+Monday June 19, 2023 10:10:01: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Monday June 19, 2023 10:10:01: INSTALL driver package from DRIVERSTORE: Found driver in DRIVERSTORE
+Monday June 19, 2023 10:10:01: INSTALL driver package from DRIVERSTORE: SUCCESS
+Monday June 19, 2023 10:10:01: UpdateDriversAfterFWUpgrade: bcmnfcclx.inf
+Monday June 19, 2023 10:10:01: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Monday June 19, 2023 10:10:01: UpdateDriversAfterFWUpgrade: bcmnfcusb7.inf
+Monday June 19, 2023 10:10:01: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Monday June 19, 2023 10:10:01: UpdateDriversAfterFWUpgrade: bcmnfcscr7.inf
+Monday June 19, 2023 10:10:01: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Monday June 19, 2023 10:10:01: UpdateDriversAfterFWUpgrade: bcmnfcser7.inf
+Monday June 19, 2023 10:10:01: INSTALL driver package from DRIVERSTORE: Didn't find any driver
+Monday June 19, 2023 10:10:01: Re-Install Drivers COMPLETED 
+Monday June 19, 2023 10:10:01: Deleting FirmwareUpgardeStatus reg key. Status 0x0
+Monday June 19, 2023 10:10:01: Event: FwUpgradeFinished: 3, Handle: 254 
+Monday June 19, 2023 10:10:01: USH related Registry entries setup.
+Monday June 19, 2023 10:10:01: Files cleanup & Folders creation related setup.
+Monday June 19, 2023 10:10:01: Non DCH Binaries cleanup .
+Monday June 19, 2023 10:10:01: Non DCH Binaries EXIST. Cleaning Up Non DCH binaries
+Monday June 19, 2023 10:10:01: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Monday June 19, 2023 10:10:01: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Monday June 19, 2023 10:10:01: Finished
+
+
+Thursday June 22, 2023 14:39:53: Command - FWUpgrade
+Thursday June 22, 2023 14:39:53: Stopping the service: WbioSrvc 
+Thursday June 22, 2023 14:39:53: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday June 22, 2023 14:39:53: Event: eventIndx: 0, Handle: 18c 
+Thursday June 22, 2023 14:39:53: Event: eventIndx: 1, Handle: 190 
+Thursday June 22, 2023 14:39:53: Event: eventIndx: 2, Handle: 19c 
+Thursday June 22, 2023 14:39:53: Event: eventIndx: 3, Handle: 254 
+Thursday June 22, 2023 14:39:53: Event: eventIndx: 4, Handle: 25c 
+Thursday June 22, 2023 14:39:59: cvif_IsUsh (0x0)
+Thursday June 22, 2023 14:39:59: The version matches - it is up do date
+Thursday June 22, 2023 14:39:59: There is no FirmwareUpgardeStatus reg key
+Thursday June 22, 2023 14:39:59: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday June 22, 2023 14:39:59: Event: FwUpgradeNotRequired: 0, Handle: 18c 
+Thursday June 22, 2023 14:39:59: There is no FirmwareUpgardeStatus reg key
+Thursday June 22, 2023 14:39:59: USH related Registry entries setup.
+Thursday June 22, 2023 14:39:59: Files cleanup & Folders creation related setup.
+Thursday June 22, 2023 14:39:59: Non DCH Binaries cleanup .
+Thursday June 22, 2023 14:39:59: Non DCH Binaries DOES NOT EXIST
+Thursday June 22, 2023 14:39:59: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday June 22, 2023 14:39:59: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday June 22, 2023 14:39:59: Finished
+
+
+Saturday June 24, 2023 10:47:01: Command - FWUpgrade
+Saturday June 24, 2023 10:47:01: Stopping the service: WbioSrvc 
+Saturday June 24, 2023 10:47:01: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Saturday June 24, 2023 10:47:01: Event: eventIndx: 0, Handle: 27c 
+Saturday June 24, 2023 10:47:01: Event: eventIndx: 1, Handle: 280 
+Saturday June 24, 2023 10:47:01: Event: eventIndx: 2, Handle: 284 
+Saturday June 24, 2023 10:47:01: Event: eventIndx: 3, Handle: 288 
+Saturday June 24, 2023 10:47:01: Event: eventIndx: 4, Handle: 28c 
+Saturday June 24, 2023 10:47:06: cvif_IsUsh (0x0)
+Saturday June 24, 2023 10:47:06: The version matches - it is up do date
+Saturday June 24, 2023 10:47:06: There is no FirmwareUpgardeStatus reg key
+Saturday June 24, 2023 10:47:06: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Saturday June 24, 2023 10:47:06: Event: FwUpgradeNotRequired: 0, Handle: 27c 
+Saturday June 24, 2023 10:47:06: There is no FirmwareUpgardeStatus reg key
+Saturday June 24, 2023 10:47:06: USH related Registry entries setup.
+Saturday June 24, 2023 10:47:06: Files cleanup & Folders creation related setup.
+Saturday June 24, 2023 10:47:06: Non DCH Binaries cleanup .
+Saturday June 24, 2023 10:47:06: Non DCH Binaries DOES NOT EXIST
+Saturday June 24, 2023 10:47:06: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Saturday June 24, 2023 10:47:06: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Saturday June 24, 2023 10:47:06: Finished
+
+
+Thursday July 06, 2023 11:29:03: Command - FWUpgrade
+Thursday July 06, 2023 11:29:03: Stopping the service: WbioSrvc 
+Thursday July 06, 2023 11:29:03: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday July 06, 2023 11:29:03: Event: eventIndx: 0, Handle: 290 
+Thursday July 06, 2023 11:29:03: Event: eventIndx: 1, Handle: 294 
+Thursday July 06, 2023 11:29:03: Event: eventIndx: 2, Handle: 298 
+Thursday July 06, 2023 11:29:03: Event: eventIndx: 3, Handle: 29c 
+Thursday July 06, 2023 11:29:03: Event: eventIndx: 4, Handle: 2a0 
+Thursday July 06, 2023 11:29:09: cvif_IsUsh (0x0)
+Thursday July 06, 2023 11:29:09: The version matches - it is up do date
+Thursday July 06, 2023 11:29:09: There is no FirmwareUpgardeStatus reg key
+Thursday July 06, 2023 11:29:09: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday July 06, 2023 11:29:09: Event: FwUpgradeNotRequired: 0, Handle: 290 
+Thursday July 06, 2023 11:29:09: There is no FirmwareUpgardeStatus reg key
+Thursday July 06, 2023 11:29:09: USH related Registry entries setup.
+Thursday July 06, 2023 11:29:09: Files cleanup & Folders creation related setup.
+Thursday July 06, 2023 11:29:09: Non DCH Binaries cleanup .
+Thursday July 06, 2023 11:29:09: Non DCH Binaries DOES NOT EXIST
+Thursday July 06, 2023 11:29:09: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday July 06, 2023 11:29:09: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday July 06, 2023 11:29:09: Finished
+
+
+Friday July 14, 2023 22:11:23: Command - FWUpgrade
+Friday July 14, 2023 22:11:23: Stopping the service: WbioSrvc 
+Friday July 14, 2023 22:11:23: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Friday July 14, 2023 22:11:23: Event: eventIndx: 0, Handle: 1c8 
+Friday July 14, 2023 22:11:23: Event: eventIndx: 1, Handle: 1cc 
+Friday July 14, 2023 22:11:23: Event: eventIndx: 2, Handle: 1d0 
+Friday July 14, 2023 22:11:23: Event: eventIndx: 3, Handle: 1d4 
+Friday July 14, 2023 22:11:23: Event: eventIndx: 4, Handle: 1d8 
+Friday July 14, 2023 22:11:28: cvif_IsUsh (0x0)
+Friday July 14, 2023 22:11:28: The version matches - it is up do date
+Friday July 14, 2023 22:11:28: There is no FirmwareUpgardeStatus reg key
+Friday July 14, 2023 22:11:28: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Friday July 14, 2023 22:11:28: Event: FwUpgradeNotRequired: 0, Handle: 1c8 
+Friday July 14, 2023 22:11:28: There is no FirmwareUpgardeStatus reg key
+Friday July 14, 2023 22:11:28: USH related Registry entries setup.
+Friday July 14, 2023 22:11:28: Files cleanup & Folders creation related setup.
+Friday July 14, 2023 22:11:28: Non DCH Binaries cleanup .
+Friday July 14, 2023 22:11:28: Non DCH Binaries DOES NOT EXIST
+Friday July 14, 2023 22:11:28: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Friday July 14, 2023 22:11:28: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Friday July 14, 2023 22:11:28: Finished
+
+
+Tuesday July 18, 2023 19:47:39: Command - FWUpgrade
+Tuesday July 18, 2023 19:47:39: Stopping the service: WbioSrvc 
+Tuesday July 18, 2023 19:47:39: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday July 18, 2023 19:47:39: Event: eventIndx: 0, Handle: 1c0 
+Tuesday July 18, 2023 19:47:39: Event: eventIndx: 1, Handle: 1cc 
+Tuesday July 18, 2023 19:47:39: Event: eventIndx: 2, Handle: 1d0 
+Tuesday July 18, 2023 19:47:39: Event: eventIndx: 3, Handle: 1d4 
+Tuesday July 18, 2023 19:47:39: Event: eventIndx: 4, Handle: 1d8 
+
+Tuesday July 18, 2023 19:48:05: Command - FWUpgrade
+Tuesday July 18, 2023 19:48:05: Stopping the service: WbioSrvc 
+Tuesday July 18, 2023 19:48:05: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday July 18, 2023 19:48:05: Event: eventIndx: 0, Handle: 188 
+Tuesday July 18, 2023 19:48:05: Event: eventIndx: 1, Handle: 18c 
+Tuesday July 18, 2023 19:48:05: Event: eventIndx: 2, Handle: 1c4 
+Tuesday July 18, 2023 19:48:05: Event: eventIndx: 3, Handle: 25c 
+Tuesday July 18, 2023 19:48:05: Event: eventIndx: 4, Handle: 264 
+Tuesday July 18, 2023 19:48:10: cvif_IsUsh (0x0)
+Tuesday July 18, 2023 19:48:10: The version matches - it is up do date
+Tuesday July 18, 2023 19:48:10: There is no FirmwareUpgardeStatus reg key
+Tuesday July 18, 2023 19:48:10: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday July 18, 2023 19:48:10: Event: FwUpgradeNotRequired: 0, Handle: 188 
+Tuesday July 18, 2023 19:48:10: There is no FirmwareUpgardeStatus reg key
+Tuesday July 18, 2023 19:48:10: USH related Registry entries setup.
+Tuesday July 18, 2023 19:48:10: Files cleanup & Folders creation related setup.
+Tuesday July 18, 2023 19:48:10: Non DCH Binaries cleanup .
+Tuesday July 18, 2023 19:48:10: Non DCH Binaries DOES NOT EXIST
+Tuesday July 18, 2023 19:48:10: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday July 18, 2023 19:48:10: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday July 18, 2023 19:48:10: Finished
+
+
+Tuesday July 18, 2023 19:48:42: Command - FWUpgrade
+Tuesday July 18, 2023 19:48:42: Stopping the service: WbioSrvc 
+Tuesday July 18, 2023 19:48:42: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday July 18, 2023 19:48:42: Event: eventIndx: 0, Handle: 188 
+Tuesday July 18, 2023 19:48:42: Event: eventIndx: 1, Handle: 18c 
+Tuesday July 18, 2023 19:48:42: Event: eventIndx: 2, Handle: 19c 
+Tuesday July 18, 2023 19:48:42: Event: eventIndx: 3, Handle: 250 
+Tuesday July 18, 2023 19:48:42: Event: eventIndx: 4, Handle: 258 
+Tuesday July 18, 2023 19:48:47: cvif_IsUsh (0x0)
+Tuesday July 18, 2023 19:48:47: The version matches - it is up do date
+Tuesday July 18, 2023 19:48:47: There is no FirmwareUpgardeStatus reg key
+Tuesday July 18, 2023 19:48:47: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday July 18, 2023 19:48:47: Event: FwUpgradeNotRequired: 0, Handle: 188 
+Tuesday July 18, 2023 19:48:47: There is no FirmwareUpgardeStatus reg key
+Tuesday July 18, 2023 19:48:47: USH related Registry entries setup.
+Tuesday July 18, 2023 19:48:47: Files cleanup & Folders creation related setup.
+Tuesday July 18, 2023 19:48:47: Non DCH Binaries cleanup .
+Tuesday July 18, 2023 19:48:47: Non DCH Binaries DOES NOT EXIST
+Tuesday July 18, 2023 19:48:47: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday July 18, 2023 19:48:47: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday July 18, 2023 19:48:47: Finished
+
+
+Thursday July 20, 2023 15:12:51: Command - FWUpgrade
+Thursday July 20, 2023 15:12:51: Stopping the service: WbioSrvc 
+Thursday July 20, 2023 15:12:51: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday July 20, 2023 15:12:51: Event: eventIndx: 0, Handle: 188 
+Thursday July 20, 2023 15:12:51: Event: eventIndx: 1, Handle: 18c 
+Thursday July 20, 2023 15:12:51: Event: eventIndx: 2, Handle: 1a0 
+Thursday July 20, 2023 15:12:51: Event: eventIndx: 3, Handle: 254 
+Thursday July 20, 2023 15:12:51: Event: eventIndx: 4, Handle: 25c 
+Thursday July 20, 2023 15:12:57: cvif_IsUsh (0x0)
+Thursday July 20, 2023 15:12:57: The version matches - it is up do date
+Thursday July 20, 2023 15:12:57: There is no FirmwareUpgardeStatus reg key
+Thursday July 20, 2023 15:12:57: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday July 20, 2023 15:12:57: Event: FwUpgradeNotRequired: 0, Handle: 188 
+Thursday July 20, 2023 15:12:57: There is no FirmwareUpgardeStatus reg key
+Thursday July 20, 2023 15:12:57: USH related Registry entries setup.
+Thursday July 20, 2023 15:12:57: Files cleanup & Folders creation related setup.
+Thursday July 20, 2023 15:12:57: Non DCH Binaries cleanup .
+Thursday July 20, 2023 15:12:57: Non DCH Binaries DOES NOT EXIST
+Thursday July 20, 2023 15:12:57: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday July 20, 2023 15:12:57: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday July 20, 2023 15:12:57: Finished
+
+
+Thursday September 07, 2023 15:34:35: Command - FWUpgrade
+Thursday September 07, 2023 15:34:35: Stopping the service: WbioSrvc 
+Thursday September 07, 2023 15:34:35: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday September 07, 2023 15:34:35: Event: eventIndx: 0, Handle: 1f4 
+Thursday September 07, 2023 15:34:35: Event: eventIndx: 1, Handle: 208 
+Thursday September 07, 2023 15:34:35: Event: eventIndx: 2, Handle: 210 
+Thursday September 07, 2023 15:34:35: Event: eventIndx: 3, Handle: 214 
+Thursday September 07, 2023 15:34:35: Event: eventIndx: 4, Handle: 220 
+Thursday September 07, 2023 15:34:41: cvif_IsUsh (0x0)
+Thursday September 07, 2023 15:34:41: The version matches - it is up do date
+Thursday September 07, 2023 15:34:41: There is no FirmwareUpgardeStatus reg key
+Thursday September 07, 2023 15:34:41: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday September 07, 2023 15:34:41: Event: FwUpgradeNotRequired: 0, Handle: 1f4 
+Thursday September 07, 2023 15:34:41: There is no FirmwareUpgardeStatus reg key
+Thursday September 07, 2023 15:34:41: USH related Registry entries setup.
+Thursday September 07, 2023 15:34:41: Files cleanup & Folders creation related setup.
+Thursday September 07, 2023 15:34:41: Non DCH Binaries cleanup .
+Thursday September 07, 2023 15:34:41: Non DCH Binaries DOES NOT EXIST
+Thursday September 07, 2023 15:34:41: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday September 07, 2023 15:34:41: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday September 07, 2023 15:34:41: Finished
+
+
+Thursday September 07, 2023 16:34:07: Command - FWUpgrade
+Thursday September 07, 2023 16:34:07: Stopping the service: WbioSrvc 
+Thursday September 07, 2023 16:34:07: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday September 07, 2023 16:34:07: Event: eventIndx: 0, Handle: 148 
+Thursday September 07, 2023 16:34:07: Event: eventIndx: 1, Handle: 198 
+Thursday September 07, 2023 16:34:07: Event: eventIndx: 2, Handle: 254 
+Thursday September 07, 2023 16:34:07: Event: eventIndx: 3, Handle: 25c 
+Thursday September 07, 2023 16:34:07: Event: eventIndx: 4, Handle: 280 
+Thursday September 07, 2023 16:34:12: cvif_IsUsh (0x0)
+Thursday September 07, 2023 16:34:12: The version matches - it is up do date
+Thursday September 07, 2023 16:34:12: There is no FirmwareUpgardeStatus reg key
+Thursday September 07, 2023 16:34:12: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday September 07, 2023 16:34:12: Event: FwUpgradeNotRequired: 0, Handle: 148 
+Thursday September 07, 2023 16:34:12: There is no FirmwareUpgardeStatus reg key
+Thursday September 07, 2023 16:34:12: USH related Registry entries setup.
+Thursday September 07, 2023 16:34:12: Files cleanup & Folders creation related setup.
+Thursday September 07, 2023 16:34:12: Non DCH Binaries cleanup .
+Thursday September 07, 2023 16:34:12: Non DCH Binaries DOES NOT EXIST
+Thursday September 07, 2023 16:34:12: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday September 07, 2023 16:34:12: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday September 07, 2023 16:34:12: Finished
+
+
+Thursday September 07, 2023 16:46:35: Command - FWUpgrade
+Thursday September 07, 2023 16:46:35: Stopping the service: WbioSrvc 
+Thursday September 07, 2023 16:46:35: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday September 07, 2023 16:46:35: Event: eventIndx: 0, Handle: 278 
+Thursday September 07, 2023 16:46:35: Event: eventIndx: 1, Handle: 27c 
+Thursday September 07, 2023 16:46:35: Event: eventIndx: 2, Handle: 280 
+Thursday September 07, 2023 16:46:35: Event: eventIndx: 3, Handle: 284 
+Thursday September 07, 2023 16:46:35: Event: eventIndx: 4, Handle: 288 
+Thursday September 07, 2023 16:46:40: cvif_IsUsh (0x0)
+Thursday September 07, 2023 16:46:40: The version matches - it is up do date
+Thursday September 07, 2023 16:46:40: There is no FirmwareUpgardeStatus reg key
+Thursday September 07, 2023 16:46:40: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday September 07, 2023 16:46:40: Event: FwUpgradeNotRequired: 0, Handle: 278 
+Thursday September 07, 2023 16:46:40: There is no FirmwareUpgardeStatus reg key
+Thursday September 07, 2023 16:46:40: USH related Registry entries setup.
+Thursday September 07, 2023 16:46:40: Files cleanup & Folders creation related setup.
+Thursday September 07, 2023 16:46:40: Non DCH Binaries cleanup .
+Thursday September 07, 2023 16:46:40: Non DCH Binaries DOES NOT EXIST
+Thursday September 07, 2023 16:46:40: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday September 07, 2023 16:46:40: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday September 07, 2023 16:46:40: Finished
+
+
+Saturday September 23, 2023 23:32:41: Command - FWUpgrade
+Saturday September 23, 2023 23:32:41: Stopping the service: WbioSrvc 
+Saturday September 23, 2023 23:32:41: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Saturday September 23, 2023 23:32:41: Event: eventIndx: 0, Handle: 18c 
+Saturday September 23, 2023 23:32:41: Event: eventIndx: 1, Handle: 190 
+Saturday September 23, 2023 23:32:41: Event: eventIndx: 2, Handle: 180 
+Saturday September 23, 2023 23:32:41: Event: eventIndx: 3, Handle: 280 
+Saturday September 23, 2023 23:32:41: Event: eventIndx: 4, Handle: 284 
+Saturday September 23, 2023 23:32:46: cvif_IsUsh (0x0)
+Saturday September 23, 2023 23:32:46: The version matches - it is up do date
+Saturday September 23, 2023 23:32:46: There is no FirmwareUpgardeStatus reg key
+Saturday September 23, 2023 23:32:46: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Saturday September 23, 2023 23:32:46: Event: FwUpgradeNotRequired: 0, Handle: 18c 
+Saturday September 23, 2023 23:32:46: There is no FirmwareUpgardeStatus reg key
+Saturday September 23, 2023 23:32:46: USH related Registry entries setup.
+Saturday September 23, 2023 23:32:46: Files cleanup & Folders creation related setup.
+Saturday September 23, 2023 23:32:46: Non DCH Binaries cleanup .
+Saturday September 23, 2023 23:32:46: Non DCH Binaries DOES NOT EXIST
+Saturday September 23, 2023 23:32:46: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Saturday September 23, 2023 23:32:46: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Saturday September 23, 2023 23:32:46: Finished
+
+
+Thursday November 02, 2023 00:33:10: Command - FWUpgrade
+Thursday November 02, 2023 00:33:10: Stopping the service: WbioSrvc 
+Thursday November 02, 2023 00:33:10: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday November 02, 2023 00:33:10: Event: eventIndx: 0, Handle: 28c 
+Thursday November 02, 2023 00:33:10: Event: eventIndx: 1, Handle: 290 
+Thursday November 02, 2023 00:33:10: Event: eventIndx: 2, Handle: 294 
+Thursday November 02, 2023 00:33:10: Event: eventIndx: 3, Handle: 298 
+Thursday November 02, 2023 00:33:10: Event: eventIndx: 4, Handle: 29c 
+Thursday November 02, 2023 00:33:16: cvif_IsUsh (0x0)
+Thursday November 02, 2023 00:33:16: The version matches - it is up do date
+Thursday November 02, 2023 00:33:16: There is no FirmwareUpgardeStatus reg key
+Thursday November 02, 2023 00:33:16: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday November 02, 2023 00:33:16: Event: FwUpgradeNotRequired: 0, Handle: 28c 
+Thursday November 02, 2023 00:33:16: There is no FirmwareUpgardeStatus reg key
+Thursday November 02, 2023 00:33:16: USH related Registry entries setup.
+Thursday November 02, 2023 00:33:16: Files cleanup & Folders creation related setup.
+Thursday November 02, 2023 00:33:16: Non DCH Binaries cleanup .
+Thursday November 02, 2023 00:33:16: Non DCH Binaries DOES NOT EXIST
+Thursday November 02, 2023 00:33:16: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday November 02, 2023 00:33:16: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday November 02, 2023 00:33:16: Finished
+
+
+Friday November 17, 2023 00:15:19: Command - FWUpgrade
+Friday November 17, 2023 00:15:19: Stopping the service: WbioSrvc 
+Friday November 17, 2023 00:15:19: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Friday November 17, 2023 00:15:19: Event: eventIndx: 0, Handle: 278 
+Friday November 17, 2023 00:15:19: Event: eventIndx: 1, Handle: 27c 
+Friday November 17, 2023 00:15:19: Event: eventIndx: 2, Handle: 288 
+Friday November 17, 2023 00:15:19: Event: eventIndx: 3, Handle: 28c 
+Friday November 17, 2023 00:15:19: Event: eventIndx: 4, Handle: 290 
+Friday November 17, 2023 00:15:24: cvif_IsUsh (0x0)
+Friday November 17, 2023 00:15:24: The version matches - it is up do date
+Friday November 17, 2023 00:15:24: There is no FirmwareUpgardeStatus reg key
+Friday November 17, 2023 00:15:24: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Friday November 17, 2023 00:15:24: Event: FwUpgradeNotRequired: 0, Handle: 278 
+Friday November 17, 2023 00:15:24: There is no FirmwareUpgardeStatus reg key
+Friday November 17, 2023 00:15:24: USH related Registry entries setup.
+Friday November 17, 2023 00:15:24: Files cleanup & Folders creation related setup.
+Friday November 17, 2023 00:15:24: Non DCH Binaries cleanup .
+Friday November 17, 2023 00:15:24: Non DCH Binaries DOES NOT EXIST
+Friday November 17, 2023 00:15:24: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Friday November 17, 2023 00:15:24: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Friday November 17, 2023 00:15:24: Finished
+
+
+Sunday December 03, 2023 01:58:07: Command - FWUpgrade
+Sunday December 03, 2023 01:58:07: Stopping the service: WbioSrvc 
+Sunday December 03, 2023 01:58:07: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday December 03, 2023 01:58:07: Event: eventIndx: 0, Handle: 220 
+Sunday December 03, 2023 01:58:07: Event: eventIndx: 1, Handle: 228 
+Sunday December 03, 2023 01:58:07: Event: eventIndx: 2, Handle: 230 
+Sunday December 03, 2023 01:58:07: Event: eventIndx: 3, Handle: 234 
+Sunday December 03, 2023 01:58:07: Event: eventIndx: 4, Handle: 238 
+Sunday December 03, 2023 01:58:12: cvif_IsUsh (0x0)
+Sunday December 03, 2023 01:58:12: The version matches - it is up do date
+Sunday December 03, 2023 01:58:12: There is no FirmwareUpgardeStatus reg key
+Sunday December 03, 2023 01:58:12: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday December 03, 2023 01:58:12: Event: FwUpgradeNotRequired: 0, Handle: 220 
+Sunday December 03, 2023 01:58:12: There is no FirmwareUpgardeStatus reg key
+Sunday December 03, 2023 01:58:12: USH related Registry entries setup.
+Sunday December 03, 2023 01:58:12: Files cleanup & Folders creation related setup.
+Sunday December 03, 2023 01:58:12: Non DCH Binaries cleanup .
+Sunday December 03, 2023 01:58:12: Non DCH Binaries DOES NOT EXIST
+Sunday December 03, 2023 01:58:12: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday December 03, 2023 01:58:12: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday December 03, 2023 01:58:12: Finished
+
+
+Sunday December 03, 2023 22:15:07: Command - FWUpgrade
+Sunday December 03, 2023 22:15:07: Stopping the service: WbioSrvc 
+Sunday December 03, 2023 22:15:07: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday December 03, 2023 22:15:07: Event: eventIndx: 0, Handle: 278 
+Sunday December 03, 2023 22:15:07: Event: eventIndx: 1, Handle: 27c 
+Sunday December 03, 2023 22:15:07: Event: eventIndx: 2, Handle: 280 
+Sunday December 03, 2023 22:15:07: Event: eventIndx: 3, Handle: 284 
+Sunday December 03, 2023 22:15:07: Event: eventIndx: 4, Handle: 288 
+Sunday December 03, 2023 22:15:12: cvif_IsUsh (0x0)
+Sunday December 03, 2023 22:15:12: The version matches - it is up do date
+Sunday December 03, 2023 22:15:12: There is no FirmwareUpgardeStatus reg key
+Sunday December 03, 2023 22:15:12: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday December 03, 2023 22:15:12: Event: FwUpgradeNotRequired: 0, Handle: 278 
+Sunday December 03, 2023 22:15:12: There is no FirmwareUpgardeStatus reg key
+Sunday December 03, 2023 22:15:12: USH related Registry entries setup.
+Sunday December 03, 2023 22:15:12: Files cleanup & Folders creation related setup.
+Sunday December 03, 2023 22:15:12: Non DCH Binaries cleanup .
+Sunday December 03, 2023 22:15:12: Non DCH Binaries DOES NOT EXIST
+Sunday December 03, 2023 22:15:12: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday December 03, 2023 22:15:12: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday December 03, 2023 22:15:12: Finished
+
+
+Tuesday January 02, 2024 01:29:43: Command - FWUpgrade
+Tuesday January 02, 2024 01:29:43: Stopping the service: WbioSrvc 
+Tuesday January 02, 2024 01:29:43: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday January 02, 2024 01:29:43: Event: eventIndx: 0, Handle: 1e0 
+Tuesday January 02, 2024 01:29:43: Event: eventIndx: 1, Handle: 1ec 
+Tuesday January 02, 2024 01:29:43: Event: eventIndx: 2, Handle: 1f0 
+Tuesday January 02, 2024 01:29:43: Event: eventIndx: 3, Handle: 1f4 
+Tuesday January 02, 2024 01:29:43: Event: eventIndx: 4, Handle: 1f8 
+Tuesday January 02, 2024 01:29:49: cvif_IsUsh (0x0)
+Tuesday January 02, 2024 01:29:49: The version matches - it is up do date
+Tuesday January 02, 2024 01:29:49: There is no FirmwareUpgardeStatus reg key
+Tuesday January 02, 2024 01:29:49: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday January 02, 2024 01:29:49: Event: FwUpgradeNotRequired: 0, Handle: 1e0 
+Tuesday January 02, 2024 01:29:49: There is no FirmwareUpgardeStatus reg key
+Tuesday January 02, 2024 01:29:49: USH related Registry entries setup.
+Tuesday January 02, 2024 01:29:49: Files cleanup & Folders creation related setup.
+Tuesday January 02, 2024 01:29:49: Non DCH Binaries cleanup .
+Tuesday January 02, 2024 01:29:49: Non DCH Binaries DOES NOT EXIST
+Tuesday January 02, 2024 01:29:49: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday January 02, 2024 01:29:49: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday January 02, 2024 01:29:49: Finished
+
+
+Saturday January 27, 2024 23:35:51: Command - FWUpgrade
+Saturday January 27, 2024 23:35:51: Stopping the service: WbioSrvc 
+Saturday January 27, 2024 23:35:51: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Saturday January 27, 2024 23:35:51: Event: eventIndx: 0, Handle: 284 
+Saturday January 27, 2024 23:35:51: Event: eventIndx: 1, Handle: 288 
+Saturday January 27, 2024 23:35:51: Event: eventIndx: 2, Handle: 28c 
+Saturday January 27, 2024 23:35:51: Event: eventIndx: 3, Handle: 290 
+Saturday January 27, 2024 23:35:51: Event: eventIndx: 4, Handle: 294 
+
+Saturday January 27, 2024 23:36:18: Command - FWUpgrade
+Saturday January 27, 2024 23:36:18: Stopping the service: WbioSrvc 
+Saturday January 27, 2024 23:36:18: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Saturday January 27, 2024 23:36:18: Event: eventIndx: 0, Handle: 188 
+Saturday January 27, 2024 23:36:18: Event: eventIndx: 1, Handle: 18c 
+Saturday January 27, 2024 23:36:18: Event: eventIndx: 2, Handle: 1d0 
+Saturday January 27, 2024 23:36:18: Event: eventIndx: 3, Handle: 25c 
+Saturday January 27, 2024 23:36:18: Event: eventIndx: 4, Handle: 264 
+Saturday January 27, 2024 23:36:23: cvif_IsUsh (0x0)
+Saturday January 27, 2024 23:36:23: The version matches - it is up do date
+Saturday January 27, 2024 23:36:23: There is no FirmwareUpgardeStatus reg key
+Saturday January 27, 2024 23:36:23: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Saturday January 27, 2024 23:36:23: Event: FwUpgradeNotRequired: 0, Handle: 188 
+Saturday January 27, 2024 23:36:23: There is no FirmwareUpgardeStatus reg key
+Saturday January 27, 2024 23:36:23: USH related Registry entries setup.
+Saturday January 27, 2024 23:36:23: Files cleanup & Folders creation related setup.
+Saturday January 27, 2024 23:36:23: Non DCH Binaries cleanup .
+Saturday January 27, 2024 23:36:23: Non DCH Binaries DOES NOT EXIST
+Saturday January 27, 2024 23:36:23: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Saturday January 27, 2024 23:36:23: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Saturday January 27, 2024 23:36:23: Finished
+
+
+Saturday January 27, 2024 23:36:53: Command - FWUpgrade
+Saturday January 27, 2024 23:36:53: Stopping the service: WbioSrvc 
+Saturday January 27, 2024 23:36:53: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Saturday January 27, 2024 23:36:53: Event: eventIndx: 0, Handle: 194 
+Saturday January 27, 2024 23:36:53: Event: eventIndx: 1, Handle: 250 
+Saturday January 27, 2024 23:36:53: Event: eventIndx: 2, Handle: 254 
+Saturday January 27, 2024 23:36:53: Event: eventIndx: 3, Handle: 258 
+Saturday January 27, 2024 23:36:53: Event: eventIndx: 4, Handle: 25c 
+Saturday January 27, 2024 23:36:58: cvif_IsUsh (0x0)
+Saturday January 27, 2024 23:36:58: The version matches - it is up do date
+Saturday January 27, 2024 23:36:58: There is no FirmwareUpgardeStatus reg key
+Saturday January 27, 2024 23:36:58: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Saturday January 27, 2024 23:36:58: Event: FwUpgradeNotRequired: 0, Handle: 194 
+Saturday January 27, 2024 23:36:58: There is no FirmwareUpgardeStatus reg key
+Saturday January 27, 2024 23:36:58: USH related Registry entries setup.
+Saturday January 27, 2024 23:36:58: Files cleanup & Folders creation related setup.
+Saturday January 27, 2024 23:36:58: Non DCH Binaries cleanup .
+Saturday January 27, 2024 23:36:58: Non DCH Binaries DOES NOT EXIST
+Saturday January 27, 2024 23:36:58: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Saturday January 27, 2024 23:36:58: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Saturday January 27, 2024 23:36:58: Finished
+
+
+Friday March 29, 2024 23:17:40: Command - FWUpgrade
+Friday March 29, 2024 23:17:40: Stopping the service: WbioSrvc 
+Friday March 29, 2024 23:17:40: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Friday March 29, 2024 23:17:40: Event: eventIndx: 0, Handle: 18c 
+Friday March 29, 2024 23:17:40: Event: eventIndx: 1, Handle: 194 
+Friday March 29, 2024 23:17:40: Event: eventIndx: 2, Handle: 254 
+Friday March 29, 2024 23:17:40: Event: eventIndx: 3, Handle: 25c 
+Friday March 29, 2024 23:17:40: Event: eventIndx: 4, Handle: 280 
+Friday March 29, 2024 23:17:45: cvif_IsUsh (0x0)
+Friday March 29, 2024 23:17:45: The version matches - it is up do date
+Friday March 29, 2024 23:17:45: There is no FirmwareUpgardeStatus reg key
+Friday March 29, 2024 23:17:45: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Friday March 29, 2024 23:17:45: Event: FwUpgradeNotRequired: 0, Handle: 18c 
+Friday March 29, 2024 23:17:45: There is no FirmwareUpgardeStatus reg key
+Friday March 29, 2024 23:17:45: USH related Registry entries setup.
+Friday March 29, 2024 23:17:45: Files cleanup & Folders creation related setup.
+Friday March 29, 2024 23:17:45: Non DCH Binaries cleanup .
+Friday March 29, 2024 23:17:45: Non DCH Binaries DOES NOT EXIST
+Friday March 29, 2024 23:17:45: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Friday March 29, 2024 23:17:45: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Friday March 29, 2024 23:17:45: Finished
+
+
+Sunday April 28, 2024 17:12:38: Command - FWUpgrade
+Sunday April 28, 2024 17:12:38: Stopping the service: WbioSrvc 
+Sunday April 28, 2024 17:12:38: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday April 28, 2024 17:12:38: Event: eventIndx: 0, Handle: 1a4 
+Sunday April 28, 2024 17:12:38: Event: eventIndx: 1, Handle: 1c4 
+Sunday April 28, 2024 17:12:38: Event: eventIndx: 2, Handle: 1a0 
+Sunday April 28, 2024 17:12:38: Event: eventIndx: 3, Handle: 25c 
+Sunday April 28, 2024 17:12:38: Event: eventIndx: 4, Handle: 264 
+Sunday April 28, 2024 17:12:45: cvif_IsUsh (0x0)
+Sunday April 28, 2024 17:12:45: The version matches - it is up do date
+Sunday April 28, 2024 17:12:45: There is no FirmwareUpgardeStatus reg key
+Sunday April 28, 2024 17:12:45: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday April 28, 2024 17:12:45: Event: FwUpgradeNotRequired: 0, Handle: 1a4 
+Sunday April 28, 2024 17:12:45: There is no FirmwareUpgardeStatus reg key
+Sunday April 28, 2024 17:12:45: USH related Registry entries setup.
+Sunday April 28, 2024 17:12:45: Files cleanup & Folders creation related setup.
+Sunday April 28, 2024 17:12:45: Non DCH Binaries cleanup .
+Sunday April 28, 2024 17:12:45: Non DCH Binaries DOES NOT EXIST
+Sunday April 28, 2024 17:12:45: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday April 28, 2024 17:12:45: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday April 28, 2024 17:12:45: Finished
+
+
+Tuesday April 30, 2024 19:54:17: Command - FWUpgrade
+Tuesday April 30, 2024 19:54:17: Stopping the service: WbioSrvc 
+Tuesday April 30, 2024 19:54:17: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday April 30, 2024 19:54:17: Event: eventIndx: 0, Handle: 284 
+Tuesday April 30, 2024 19:54:17: Event: eventIndx: 1, Handle: 288 
+Tuesday April 30, 2024 19:54:17: Event: eventIndx: 2, Handle: 28c 
+Tuesday April 30, 2024 19:54:17: Event: eventIndx: 3, Handle: 290 
+Tuesday April 30, 2024 19:54:17: Event: eventIndx: 4, Handle: 294 
+Tuesday April 30, 2024 19:54:22: cvif_IsUsh (0x0)
+Tuesday April 30, 2024 19:54:22: The version matches - it is up do date
+Tuesday April 30, 2024 19:54:22: There is no FirmwareUpgardeStatus reg key
+Tuesday April 30, 2024 19:54:22: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday April 30, 2024 19:54:22: Event: FwUpgradeNotRequired: 0, Handle: 284 
+Tuesday April 30, 2024 19:54:22: There is no FirmwareUpgardeStatus reg key
+Tuesday April 30, 2024 19:54:22: USH related Registry entries setup.
+Tuesday April 30, 2024 19:54:22: Files cleanup & Folders creation related setup.
+Tuesday April 30, 2024 19:54:22: Non DCH Binaries cleanup .
+Tuesday April 30, 2024 19:54:22: Non DCH Binaries DOES NOT EXIST
+Tuesday April 30, 2024 19:54:22: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday April 30, 2024 19:54:22: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday April 30, 2024 19:54:22: Finished
+
+
+Wednesday May 29, 2024 00:54:25: Command - FWUpgrade
+Wednesday May 29, 2024 00:54:25: Stopping the service: WbioSrvc 
+Wednesday May 29, 2024 00:54:25: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Wednesday May 29, 2024 00:54:25: Event: eventIndx: 0, Handle: 1e4 
+Wednesday May 29, 2024 00:54:25: Event: eventIndx: 1, Handle: 208 
+Wednesday May 29, 2024 00:54:25: Event: eventIndx: 2, Handle: 20c 
+Wednesday May 29, 2024 00:54:25: Event: eventIndx: 3, Handle: 210 
+Wednesday May 29, 2024 00:54:25: Event: eventIndx: 4, Handle: 218 
+
+Wednesday May 29, 2024 00:54:48: Command - FWUpgrade
+Wednesday May 29, 2024 00:54:48: Stopping the service: WbioSrvc 
+Wednesday May 29, 2024 00:54:48: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Wednesday May 29, 2024 00:54:48: Event: eventIndx: 0, Handle: 284 
+Wednesday May 29, 2024 00:54:48: Event: eventIndx: 1, Handle: 288 
+Wednesday May 29, 2024 00:54:48: Event: eventIndx: 2, Handle: 28c 
+Wednesday May 29, 2024 00:54:48: Event: eventIndx: 3, Handle: 290 
+Wednesday May 29, 2024 00:54:48: Event: eventIndx: 4, Handle: 294 
+Wednesday May 29, 2024 00:54:53: cvif_IsUsh (0x0)
+Wednesday May 29, 2024 00:54:53: The version matches - it is up do date
+Wednesday May 29, 2024 00:54:53: There is no FirmwareUpgardeStatus reg key
+Wednesday May 29, 2024 00:54:53: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Wednesday May 29, 2024 00:54:53: Event: FwUpgradeNotRequired: 0, Handle: 284 
+Wednesday May 29, 2024 00:54:53: There is no FirmwareUpgardeStatus reg key
+Wednesday May 29, 2024 00:54:53: USH related Registry entries setup.
+Wednesday May 29, 2024 00:54:53: Files cleanup & Folders creation related setup.
+Wednesday May 29, 2024 00:54:53: Non DCH Binaries cleanup .
+Wednesday May 29, 2024 00:54:53: Non DCH Binaries DOES NOT EXIST
+Wednesday May 29, 2024 00:54:53: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Wednesday May 29, 2024 00:54:53: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Wednesday May 29, 2024 00:54:53: Finished
+
+
+Wednesday May 29, 2024 00:55:42: Command - FWUpgrade
+Wednesday May 29, 2024 00:55:42: Stopping the service: WbioSrvc 
+Wednesday May 29, 2024 00:55:42: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Wednesday May 29, 2024 00:55:42: Event: eventIndx: 0, Handle: 284 
+Wednesday May 29, 2024 00:55:42: Event: eventIndx: 1, Handle: 288 
+Wednesday May 29, 2024 00:55:42: Event: eventIndx: 2, Handle: 28c 
+Wednesday May 29, 2024 00:55:42: Event: eventIndx: 3, Handle: 290 
+Wednesday May 29, 2024 00:55:42: Event: eventIndx: 4, Handle: 294 
+Wednesday May 29, 2024 00:55:47: cvif_IsUsh (0x0)
+Wednesday May 29, 2024 00:55:47: The version matches - it is up do date
+Wednesday May 29, 2024 00:55:47: There is no FirmwareUpgardeStatus reg key
+Wednesday May 29, 2024 00:55:47: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Wednesday May 29, 2024 00:55:47: Event: FwUpgradeNotRequired: 0, Handle: 284 
+Wednesday May 29, 2024 00:55:47: There is no FirmwareUpgardeStatus reg key
+Wednesday May 29, 2024 00:55:47: USH related Registry entries setup.
+Wednesday May 29, 2024 00:55:47: Files cleanup & Folders creation related setup.
+Wednesday May 29, 2024 00:55:47: Non DCH Binaries cleanup .
+Wednesday May 29, 2024 00:55:47: Non DCH Binaries DOES NOT EXIST
+Wednesday May 29, 2024 00:55:47: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Wednesday May 29, 2024 00:55:47: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Wednesday May 29, 2024 00:55:47: Finished
+
+
+Thursday June 13, 2024 18:54:18: Command - FWUpgrade
+Thursday June 13, 2024 18:54:18: Stopping the service: WbioSrvc 
+Thursday June 13, 2024 18:54:18: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday June 13, 2024 18:54:18: Event: eventIndx: 0, Handle: 250 
+Thursday June 13, 2024 18:54:18: Event: eventIndx: 1, Handle: 258 
+Thursday June 13, 2024 18:54:18: Event: eventIndx: 2, Handle: 278 
+Thursday June 13, 2024 18:54:18: Event: eventIndx: 3, Handle: 27c 
+Thursday June 13, 2024 18:54:18: Event: eventIndx: 4, Handle: 280 
+Thursday June 13, 2024 18:54:23: cvif_IsUsh (0x0)
+Thursday June 13, 2024 18:54:23: The version matches - it is up do date
+Thursday June 13, 2024 18:54:23: There is no FirmwareUpgardeStatus reg key
+Thursday June 13, 2024 18:54:23: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday June 13, 2024 18:54:23: Event: FwUpgradeNotRequired: 0, Handle: 250 
+Thursday June 13, 2024 18:54:23: There is no FirmwareUpgardeStatus reg key
+Thursday June 13, 2024 18:54:23: USH related Registry entries setup.
+Thursday June 13, 2024 18:54:23: Files cleanup & Folders creation related setup.
+Thursday June 13, 2024 18:54:23: Non DCH Binaries cleanup .
+Thursday June 13, 2024 18:54:23: Non DCH Binaries DOES NOT EXIST
+Thursday June 13, 2024 18:54:23: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday June 13, 2024 18:54:23: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday June 13, 2024 18:54:23: Finished
+
+
+Tuesday June 25, 2024 20:36:07: Command - FWUpgrade
+Tuesday June 25, 2024 20:36:07: Stopping the service: WbioSrvc 
+Tuesday June 25, 2024 20:36:07: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday June 25, 2024 20:36:07: Event: eventIndx: 0, Handle: 284 
+Tuesday June 25, 2024 20:36:07: Event: eventIndx: 1, Handle: 288 
+Tuesday June 25, 2024 20:36:07: Event: eventIndx: 2, Handle: 28c 
+Tuesday June 25, 2024 20:36:07: Event: eventIndx: 3, Handle: 290 
+Tuesday June 25, 2024 20:36:07: Event: eventIndx: 4, Handle: 294 
+
+Tuesday June 25, 2024 20:36:40: Command - FWUpgrade
+Tuesday June 25, 2024 20:36:40: Stopping the service: WbioSrvc 
+Tuesday June 25, 2024 20:36:40: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday June 25, 2024 20:36:40: Event: eventIndx: 0, Handle: 294 
+Tuesday June 25, 2024 20:36:40: Event: eventIndx: 1, Handle: 298 
+Tuesday June 25, 2024 20:36:40: Event: eventIndx: 2, Handle: 29c 
+Tuesday June 25, 2024 20:36:40: Event: eventIndx: 3, Handle: 2a0 
+Tuesday June 25, 2024 20:36:40: Event: eventIndx: 4, Handle: 2a4 
+Tuesday June 25, 2024 20:36:45: cvif_IsUsh (0x0)
+Tuesday June 25, 2024 20:36:45: The version matches - it is up do date
+Tuesday June 25, 2024 20:36:45: There is no FirmwareUpgardeStatus reg key
+Tuesday June 25, 2024 20:36:45: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday June 25, 2024 20:36:45: Event: FwUpgradeNotRequired: 0, Handle: 294 
+Tuesday June 25, 2024 20:36:45: There is no FirmwareUpgardeStatus reg key
+Tuesday June 25, 2024 20:36:45: USH related Registry entries setup.
+Tuesday June 25, 2024 20:36:45: Files cleanup & Folders creation related setup.
+Tuesday June 25, 2024 20:36:45: Non DCH Binaries cleanup .
+Tuesday June 25, 2024 20:36:45: Non DCH Binaries DOES NOT EXIST
+Tuesday June 25, 2024 20:36:45: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday June 25, 2024 20:36:45: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday June 25, 2024 20:36:45: Finished
+
+
+Tuesday July 09, 2024 19:37:12: Command - FWUpgrade
+Tuesday July 09, 2024 19:37:12: Stopping the service: WbioSrvc 
+Tuesday July 09, 2024 19:37:12: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday July 09, 2024 19:37:12: Event: eventIndx: 0, Handle: 180 
+Tuesday July 09, 2024 19:37:12: Event: eventIndx: 1, Handle: 278 
+Tuesday July 09, 2024 19:37:12: Event: eventIndx: 2, Handle: 27c 
+Tuesday July 09, 2024 19:37:12: Event: eventIndx: 3, Handle: 280 
+Tuesday July 09, 2024 19:37:12: Event: eventIndx: 4, Handle: 284 
+Tuesday July 09, 2024 19:37:17: cvif_IsUsh (0x0)
+Tuesday July 09, 2024 19:37:17: The version matches - it is up do date
+Tuesday July 09, 2024 19:37:17: There is no FirmwareUpgardeStatus reg key
+Tuesday July 09, 2024 19:37:17: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday July 09, 2024 19:37:17: Event: FwUpgradeNotRequired: 0, Handle: 180 
+Tuesday July 09, 2024 19:37:17: There is no FirmwareUpgardeStatus reg key
+Tuesday July 09, 2024 19:37:17: USH related Registry entries setup.
+Tuesday July 09, 2024 19:37:17: Files cleanup & Folders creation related setup.
+Tuesday July 09, 2024 19:37:17: Non DCH Binaries cleanup .
+Tuesday July 09, 2024 19:37:17: Non DCH Binaries DOES NOT EXIST
+Tuesday July 09, 2024 19:37:17: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday July 09, 2024 19:37:17: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday July 09, 2024 19:37:17: Finished
+
+
+Thursday July 11, 2024 21:44:29: Command - FWUpgrade
+Thursday July 11, 2024 21:44:29: Stopping the service: WbioSrvc 
+Thursday July 11, 2024 21:44:29: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday July 11, 2024 21:44:29: Event: eventIndx: 0, Handle: 294 
+Thursday July 11, 2024 21:44:29: Event: eventIndx: 1, Handle: 298 
+Thursday July 11, 2024 21:44:29: Event: eventIndx: 2, Handle: 29c 
+Thursday July 11, 2024 21:44:29: Event: eventIndx: 3, Handle: 2a0 
+Thursday July 11, 2024 21:44:29: Event: eventIndx: 4, Handle: 2a4 
+Thursday July 11, 2024 21:44:34: cvif_IsUsh (0x0)
+Thursday July 11, 2024 21:44:34: The version matches - it is up do date
+Thursday July 11, 2024 21:44:34: There is no FirmwareUpgardeStatus reg key
+Thursday July 11, 2024 21:44:34: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday July 11, 2024 21:44:34: Event: FwUpgradeNotRequired: 0, Handle: 294 
+Thursday July 11, 2024 21:44:34: There is no FirmwareUpgardeStatus reg key
+Thursday July 11, 2024 21:44:34: USH related Registry entries setup.
+Thursday July 11, 2024 21:44:34: Files cleanup & Folders creation related setup.
+Thursday July 11, 2024 21:44:34: Non DCH Binaries cleanup .
+Thursday July 11, 2024 21:44:34: Non DCH Binaries DOES NOT EXIST
+Thursday July 11, 2024 21:44:34: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday July 11, 2024 21:44:34: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday July 11, 2024 21:44:34: Finished
+
+
+Saturday July 27, 2024 11:33:51: Command - FWUpgrade
+Saturday July 27, 2024 11:33:51: Stopping the service: WbioSrvc 
+Saturday July 27, 2024 11:33:51: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Saturday July 27, 2024 11:33:51: Event: eventIndx: 0, Handle: 254 
+Saturday July 27, 2024 11:33:51: Event: eventIndx: 1, Handle: 25c 
+Saturday July 27, 2024 11:33:51: Event: eventIndx: 2, Handle: 278 
+Saturday July 27, 2024 11:33:51: Event: eventIndx: 3, Handle: 27c 
+Saturday July 27, 2024 11:33:51: Event: eventIndx: 4, Handle: 280 
+Saturday July 27, 2024 11:33:56: cvif_IsUsh (0x0)
+Saturday July 27, 2024 11:33:56: The version matches - it is up do date
+Saturday July 27, 2024 11:33:56: There is no FirmwareUpgardeStatus reg key
+Saturday July 27, 2024 11:33:56: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Saturday July 27, 2024 11:33:56: Event: FwUpgradeNotRequired: 0, Handle: 254 
+Saturday July 27, 2024 11:33:56: There is no FirmwareUpgardeStatus reg key
+Saturday July 27, 2024 11:33:56: USH related Registry entries setup.
+Saturday July 27, 2024 11:33:56: Files cleanup & Folders creation related setup.
+Saturday July 27, 2024 11:33:56: Non DCH Binaries cleanup .
+Saturday July 27, 2024 11:33:56: Non DCH Binaries DOES NOT EXIST
+Saturday July 27, 2024 11:33:56: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Saturday July 27, 2024 11:33:56: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Saturday July 27, 2024 11:33:56: Finished
+
+
+Monday August 12, 2024 23:08:33: Command - FWUpgrade
+Monday August 12, 2024 23:08:33: Stopping the service: WbioSrvc 
+Monday August 12, 2024 23:08:33: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday August 12, 2024 23:08:33: Event: eventIndx: 0, Handle: 178 
+Monday August 12, 2024 23:08:33: Event: eventIndx: 1, Handle: 288 
+Monday August 12, 2024 23:08:33: Event: eventIndx: 2, Handle: 28c 
+Monday August 12, 2024 23:08:33: Event: eventIndx: 3, Handle: 290 
+Monday August 12, 2024 23:08:33: Event: eventIndx: 4, Handle: 294 
+Monday August 12, 2024 23:08:39: cvif_IsUsh (0x0)
+Monday August 12, 2024 23:08:39: The version matches - it is up do date
+Monday August 12, 2024 23:08:39: There is no FirmwareUpgardeStatus reg key
+Monday August 12, 2024 23:08:39: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Monday August 12, 2024 23:08:39: Event: FwUpgradeNotRequired: 0, Handle: 178 
+Monday August 12, 2024 23:08:39: There is no FirmwareUpgardeStatus reg key
+Monday August 12, 2024 23:08:39: USH related Registry entries setup.
+Monday August 12, 2024 23:08:39: Files cleanup & Folders creation related setup.
+Monday August 12, 2024 23:08:39: Non DCH Binaries cleanup .
+Monday August 12, 2024 23:08:39: Non DCH Binaries DOES NOT EXIST
+Monday August 12, 2024 23:08:39: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Monday August 12, 2024 23:08:39: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Monday August 12, 2024 23:08:39: Finished
+
+
+Monday August 12, 2024 23:09:13: Command - FWUpgrade
+Monday August 12, 2024 23:09:13: Stopping the service: WbioSrvc 
+Monday August 12, 2024 23:09:13: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday August 12, 2024 23:09:13: Event: eventIndx: 0, Handle: 228 
+Monday August 12, 2024 23:09:13: Event: eventIndx: 1, Handle: 22c 
+Monday August 12, 2024 23:09:13: Event: eventIndx: 2, Handle: 230 
+Monday August 12, 2024 23:09:13: Event: eventIndx: 3, Handle: 234 
+Monday August 12, 2024 23:09:13: Event: eventIndx: 4, Handle: 238 
+
+Monday August 12, 2024 23:09:43: Command - FWUpgrade
+Monday August 12, 2024 23:09:43: Stopping the service: WbioSrvc 
+Monday August 12, 2024 23:09:43: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday August 12, 2024 23:09:43: Event: eventIndx: 0, Handle: 284 
+Monday August 12, 2024 23:09:43: Event: eventIndx: 1, Handle: 288 
+Monday August 12, 2024 23:09:43: Event: eventIndx: 2, Handle: 28c 
+Monday August 12, 2024 23:09:43: Event: eventIndx: 3, Handle: 290 
+Monday August 12, 2024 23:09:43: Event: eventIndx: 4, Handle: 294 
+Monday August 12, 2024 23:09:48: cvif_IsUsh (0x0)
+Monday August 12, 2024 23:09:48: The version matches - it is up do date
+Monday August 12, 2024 23:09:48: There is no FirmwareUpgardeStatus reg key
+Monday August 12, 2024 23:09:48: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Monday August 12, 2024 23:09:48: Event: FwUpgradeNotRequired: 0, Handle: 284 
+Monday August 12, 2024 23:09:48: There is no FirmwareUpgardeStatus reg key
+Monday August 12, 2024 23:09:48: USH related Registry entries setup.
+Monday August 12, 2024 23:09:48: Files cleanup & Folders creation related setup.
+Monday August 12, 2024 23:09:48: Non DCH Binaries cleanup .
+Monday August 12, 2024 23:09:48: Non DCH Binaries DOES NOT EXIST
+Monday August 12, 2024 23:09:48: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Monday August 12, 2024 23:09:48: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Monday August 12, 2024 23:09:48: Finished
+
+
+Saturday August 17, 2024 16:27:26: Command - FWUpgrade
+Saturday August 17, 2024 16:27:26: Stopping the service: WbioSrvc 
+Saturday August 17, 2024 16:27:26: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Saturday August 17, 2024 16:27:26: Event: eventIndx: 0, Handle: 250 
+Saturday August 17, 2024 16:27:26: Event: eventIndx: 1, Handle: 258 
+Saturday August 17, 2024 16:27:26: Event: eventIndx: 2, Handle: 27c 
+Saturday August 17, 2024 16:27:26: Event: eventIndx: 3, Handle: 280 
+Saturday August 17, 2024 16:27:26: Event: eventIndx: 4, Handle: 284 
+Saturday August 17, 2024 16:27:31: cvif_IsUsh (0x0)
+Saturday August 17, 2024 16:27:31: The version matches - it is up do date
+Saturday August 17, 2024 16:27:31: There is no FirmwareUpgardeStatus reg key
+Saturday August 17, 2024 16:27:31: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Saturday August 17, 2024 16:27:31: Event: FwUpgradeNotRequired: 0, Handle: 250 
+Saturday August 17, 2024 16:27:31: There is no FirmwareUpgardeStatus reg key
+Saturday August 17, 2024 16:27:31: USH related Registry entries setup.
+Saturday August 17, 2024 16:27:31: Files cleanup & Folders creation related setup.
+Saturday August 17, 2024 16:27:31: Non DCH Binaries cleanup .
+Saturday August 17, 2024 16:27:31: Non DCH Binaries DOES NOT EXIST
+Saturday August 17, 2024 16:27:31: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Saturday August 17, 2024 16:27:31: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Saturday August 17, 2024 16:27:31: Finished
+
+
+Sunday September 01, 2024 16:34:29: Command - FWUpgrade
+Sunday September 01, 2024 16:34:29: Stopping the service: WbioSrvc 
+Sunday September 01, 2024 16:34:29: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday September 01, 2024 16:34:29: Event: eventIndx: 0, Handle: 188 
+Sunday September 01, 2024 16:34:29: Event: eventIndx: 1, Handle: 18c 
+Sunday September 01, 2024 16:34:29: Event: eventIndx: 2, Handle: 19c 
+Sunday September 01, 2024 16:34:29: Event: eventIndx: 3, Handle: 25c 
+Sunday September 01, 2024 16:34:29: Event: eventIndx: 4, Handle: 264 
+Sunday September 01, 2024 16:34:34: cvif_IsUsh (0x0)
+Sunday September 01, 2024 16:34:34: The version matches - it is up do date
+Sunday September 01, 2024 16:34:34: There is no FirmwareUpgardeStatus reg key
+Sunday September 01, 2024 16:34:34: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday September 01, 2024 16:34:34: Event: FwUpgradeNotRequired: 0, Handle: 188 
+Sunday September 01, 2024 16:34:34: There is no FirmwareUpgardeStatus reg key
+Sunday September 01, 2024 16:34:34: USH related Registry entries setup.
+Sunday September 01, 2024 16:34:34: Files cleanup & Folders creation related setup.
+Sunday September 01, 2024 16:34:34: Non DCH Binaries cleanup .
+Sunday September 01, 2024 16:34:34: Non DCH Binaries DOES NOT EXIST
+Sunday September 01, 2024 16:34:34: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday September 01, 2024 16:34:34: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday September 01, 2024 16:34:34: Finished
+
+
+Sunday November 10, 2024 21:27:44: Command - FWUpgrade
+Sunday November 10, 2024 21:27:44: Stopping the service: WbioSrvc 
+Sunday November 10, 2024 21:27:44: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday November 10, 2024 21:27:44: Event: eventIndx: 0, Handle: 27c 
+Sunday November 10, 2024 21:27:44: Event: eventIndx: 1, Handle: 280 
+Sunday November 10, 2024 21:27:44: Event: eventIndx: 2, Handle: 284 
+Sunday November 10, 2024 21:27:44: Event: eventIndx: 3, Handle: 288 
+Sunday November 10, 2024 21:27:44: Event: eventIndx: 4, Handle: 28c 
+
+Sunday November 10, 2024 21:28:59: Command - FWUpgrade
+Sunday November 10, 2024 21:28:59: Stopping the service: WbioSrvc 
+Sunday November 10, 2024 21:28:59: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday November 10, 2024 21:28:59: Event: eventIndx: 0, Handle: 284 
+Sunday November 10, 2024 21:28:59: Event: eventIndx: 1, Handle: 288 
+Sunday November 10, 2024 21:28:59: Event: eventIndx: 2, Handle: 28c 
+Sunday November 10, 2024 21:28:59: Event: eventIndx: 3, Handle: 290 
+Sunday November 10, 2024 21:28:59: Event: eventIndx: 4, Handle: 294 
+Sunday November 10, 2024 21:29:04: cvif_IsUsh (0x0)
+Sunday November 10, 2024 21:29:04: The version matches - it is up do date
+Sunday November 10, 2024 21:29:04: There is no FirmwareUpgardeStatus reg key
+Sunday November 10, 2024 21:29:04: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday November 10, 2024 21:29:04: Event: FwUpgradeNotRequired: 0, Handle: 284 
+Sunday November 10, 2024 21:29:04: There is no FirmwareUpgardeStatus reg key
+Sunday November 10, 2024 21:29:04: USH related Registry entries setup.
+Sunday November 10, 2024 21:29:04: Files cleanup & Folders creation related setup.
+Sunday November 10, 2024 21:29:04: Non DCH Binaries cleanup .
+Sunday November 10, 2024 21:29:04: Non DCH Binaries DOES NOT EXIST
+Sunday November 10, 2024 21:29:04: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday November 10, 2024 21:29:04: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday November 10, 2024 21:29:04: Finished
+
+
+Sunday November 10, 2024 21:47:29: Command - FWUpgrade
+Sunday November 10, 2024 21:47:29: Stopping the service: WbioSrvc 
+Sunday November 10, 2024 21:47:29: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday November 10, 2024 21:47:29: Event: eventIndx: 0, Handle: 1a0 
+Sunday November 10, 2024 21:47:29: Event: eventIndx: 1, Handle: 1a4 
+Sunday November 10, 2024 21:47:29: Event: eventIndx: 2, Handle: 1bc 
+Sunday November 10, 2024 21:47:29: Event: eventIndx: 3, Handle: 268 
+Sunday November 10, 2024 21:47:29: Event: eventIndx: 4, Handle: 270 
+Sunday November 10, 2024 21:47:34: cvif_IsUsh (0x0)
+Sunday November 10, 2024 21:47:34: The version matches - it is up do date
+Sunday November 10, 2024 21:47:34: There is no FirmwareUpgardeStatus reg key
+Sunday November 10, 2024 21:47:34: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday November 10, 2024 21:47:34: Event: FwUpgradeNotRequired: 0, Handle: 1a0 
+Sunday November 10, 2024 21:47:34: There is no FirmwareUpgardeStatus reg key
+Sunday November 10, 2024 21:47:34: USH related Registry entries setup.
+Sunday November 10, 2024 21:47:34: Files cleanup & Folders creation related setup.
+Sunday November 10, 2024 21:47:34: Non DCH Binaries cleanup .
+Sunday November 10, 2024 21:47:34: Non DCH Binaries DOES NOT EXIST
+Sunday November 10, 2024 21:47:34: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday November 10, 2024 21:47:34: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday November 10, 2024 21:47:34: Finished
+
+
+Tuesday November 12, 2024 23:30:14: Command - FWUpgrade
+Tuesday November 12, 2024 23:30:14: Stopping the service: WbioSrvc 
+Tuesday November 12, 2024 23:30:14: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday November 12, 2024 23:30:14: Event: eventIndx: 0, Handle: 22c 
+Tuesday November 12, 2024 23:30:14: Event: eventIndx: 1, Handle: 230 
+Tuesday November 12, 2024 23:30:14: Event: eventIndx: 2, Handle: 234 
+Tuesday November 12, 2024 23:30:14: Event: eventIndx: 3, Handle: 238 
+Tuesday November 12, 2024 23:30:14: Event: eventIndx: 4, Handle: 23c 
+Tuesday November 12, 2024 23:30:19: cvif_IsUsh (0x0)
+Tuesday November 12, 2024 23:30:19: The version matches - it is up do date
+Tuesday November 12, 2024 23:30:19: There is no FirmwareUpgardeStatus reg key
+Tuesday November 12, 2024 23:30:19: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday November 12, 2024 23:30:19: Event: FwUpgradeNotRequired: 0, Handle: 22c 
+Tuesday November 12, 2024 23:30:19: There is no FirmwareUpgardeStatus reg key
+Tuesday November 12, 2024 23:30:19: USH related Registry entries setup.
+Tuesday November 12, 2024 23:30:19: Files cleanup & Folders creation related setup.
+Tuesday November 12, 2024 23:30:19: Non DCH Binaries cleanup .
+Tuesday November 12, 2024 23:30:19: Non DCH Binaries DOES NOT EXIST
+Tuesday November 12, 2024 23:30:19: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday November 12, 2024 23:30:19: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday November 12, 2024 23:30:19: Finished
+
+
+Thursday November 14, 2024 14:44:01: Command - FWUpgrade
+Thursday November 14, 2024 14:44:01: Stopping the service: WbioSrvc 
+Thursday November 14, 2024 14:44:01: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday November 14, 2024 14:44:01: Event: eventIndx: 0, Handle: 258 
+Thursday November 14, 2024 14:44:01: Event: eventIndx: 1, Handle: 28c 
+Thursday November 14, 2024 14:44:01: Event: eventIndx: 2, Handle: 290 
+Thursday November 14, 2024 14:44:01: Event: eventIndx: 3, Handle: 294 
+Thursday November 14, 2024 14:44:01: Event: eventIndx: 4, Handle: 264 
+Thursday November 14, 2024 14:44:06: cvif_IsUsh (0x0)
+Thursday November 14, 2024 14:44:06: The version matches - it is up do date
+Thursday November 14, 2024 14:44:06: There is no FirmwareUpgardeStatus reg key
+Thursday November 14, 2024 14:44:06: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday November 14, 2024 14:44:06: Event: FwUpgradeNotRequired: 0, Handle: 258 
+Thursday November 14, 2024 14:44:06: There is no FirmwareUpgardeStatus reg key
+Thursday November 14, 2024 14:44:06: USH related Registry entries setup.
+Thursday November 14, 2024 14:44:06: Files cleanup & Folders creation related setup.
+Thursday November 14, 2024 14:44:06: Non DCH Binaries cleanup .
+Thursday November 14, 2024 14:44:06: Non DCH Binaries DOES NOT EXIST
+Thursday November 14, 2024 14:44:06: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday November 14, 2024 14:44:06: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday November 14, 2024 14:44:06: Finished
+
+
+Thursday November 14, 2024 14:45:34: Command - FWUpgrade
+Thursday November 14, 2024 14:45:34: Stopping the service: WbioSrvc 
+Thursday November 14, 2024 14:45:34: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday November 14, 2024 14:45:34: Event: eventIndx: 0, Handle: 250 
+Thursday November 14, 2024 14:45:34: Event: eventIndx: 1, Handle: 27c 
+Thursday November 14, 2024 14:45:34: Event: eventIndx: 2, Handle: 280 
+Thursday November 14, 2024 14:45:34: Event: eventIndx: 3, Handle: 284 
+Thursday November 14, 2024 14:45:34: Event: eventIndx: 4, Handle: 288 
+Thursday November 14, 2024 14:45:39: cvif_IsUsh (0x0)
+Thursday November 14, 2024 14:45:39: The version matches - it is up do date
+Thursday November 14, 2024 14:45:39: There is no FirmwareUpgardeStatus reg key
+Thursday November 14, 2024 14:45:39: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday November 14, 2024 14:45:39: Event: FwUpgradeNotRequired: 0, Handle: 250 
+Thursday November 14, 2024 14:45:39: There is no FirmwareUpgardeStatus reg key
+Thursday November 14, 2024 14:45:39: USH related Registry entries setup.
+Thursday November 14, 2024 14:45:39: Files cleanup & Folders creation related setup.
+Thursday November 14, 2024 14:45:39: Non DCH Binaries cleanup .
+Thursday November 14, 2024 14:45:39: Non DCH Binaries DOES NOT EXIST
+Thursday November 14, 2024 14:45:39: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday November 14, 2024 14:45:39: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday November 14, 2024 14:45:39: Finished
+
+
+Sunday November 17, 2024 15:32:30: Command - FWUpgrade
+Sunday November 17, 2024 15:32:30: Stopping the service: WbioSrvc 
+Sunday November 17, 2024 15:32:30: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday November 17, 2024 15:32:30: Event: eventIndx: 0, Handle: 250 
+Sunday November 17, 2024 15:32:30: Event: eventIndx: 1, Handle: 258 
+Sunday November 17, 2024 15:32:30: Event: eventIndx: 2, Handle: 278 
+Sunday November 17, 2024 15:32:30: Event: eventIndx: 3, Handle: 27c 
+Sunday November 17, 2024 15:32:30: Event: eventIndx: 4, Handle: 280 
+Sunday November 17, 2024 15:32:35: cvif_IsUsh (0x0)
+Sunday November 17, 2024 15:32:35: The version matches - it is up do date
+Sunday November 17, 2024 15:32:35: There is no FirmwareUpgardeStatus reg key
+Sunday November 17, 2024 15:32:35: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday November 17, 2024 15:32:35: Event: FwUpgradeNotRequired: 0, Handle: 250 
+Sunday November 17, 2024 15:32:35: There is no FirmwareUpgardeStatus reg key
+Sunday November 17, 2024 15:32:35: USH related Registry entries setup.
+Sunday November 17, 2024 15:32:35: Files cleanup & Folders creation related setup.
+Sunday November 17, 2024 15:32:35: Non DCH Binaries cleanup .
+Sunday November 17, 2024 15:32:35: Non DCH Binaries DOES NOT EXIST
+Sunday November 17, 2024 15:32:35: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday November 17, 2024 15:32:35: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday November 17, 2024 15:32:35: Finished
+
+
+Monday November 18, 2024 22:02:10: Command - FWUpgrade
+Monday November 18, 2024 22:02:10: Stopping the service: WbioSrvc 
+Monday November 18, 2024 22:02:10: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday November 18, 2024 22:02:10: Event: eventIndx: 0, Handle: 194 
+Monday November 18, 2024 22:02:10: Event: eventIndx: 1, Handle: 19c 
+Monday November 18, 2024 22:02:10: Event: eventIndx: 2, Handle: 1c0 
+Monday November 18, 2024 22:02:10: Event: eventIndx: 3, Handle: 22c 
+Monday November 18, 2024 22:02:10: Event: eventIndx: 4, Handle: 230 
+Monday November 18, 2024 22:02:16: cvif_IsUsh (0x0)
+Monday November 18, 2024 22:02:16: The version matches - it is up do date
+Monday November 18, 2024 22:02:16: There is no FirmwareUpgardeStatus reg key
+Monday November 18, 2024 22:02:16: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Monday November 18, 2024 22:02:16: Event: FwUpgradeNotRequired: 0, Handle: 194 
+Monday November 18, 2024 22:02:16: There is no FirmwareUpgardeStatus reg key
+Monday November 18, 2024 22:02:16: USH related Registry entries setup.
+Monday November 18, 2024 22:02:16: Files cleanup & Folders creation related setup.
+Monday November 18, 2024 22:02:16: Non DCH Binaries cleanup .
+Monday November 18, 2024 22:02:16: Non DCH Binaries DOES NOT EXIST
+Monday November 18, 2024 22:02:16: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Monday November 18, 2024 22:02:16: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Monday November 18, 2024 22:02:16: Finished
+
+
+Thursday December 12, 2024 12:35:15: Command - FWUpgrade
+Thursday December 12, 2024 12:35:15: Stopping the service: WbioSrvc 
+Thursday December 12, 2024 12:35:15: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday December 12, 2024 12:35:15: Event: eventIndx: 0, Handle: 278 
+Thursday December 12, 2024 12:35:15: Event: eventIndx: 1, Handle: 27c 
+Thursday December 12, 2024 12:35:15: Event: eventIndx: 2, Handle: 280 
+Thursday December 12, 2024 12:35:15: Event: eventIndx: 3, Handle: 284 
+Thursday December 12, 2024 12:35:15: Event: eventIndx: 4, Handle: 288 
+Thursday December 12, 2024 12:35:20: cvif_IsUsh (0x0)
+Thursday December 12, 2024 12:35:20: The version matches - it is up do date
+Thursday December 12, 2024 12:35:20: There is no FirmwareUpgardeStatus reg key
+Thursday December 12, 2024 12:35:20: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday December 12, 2024 12:35:20: Event: FwUpgradeNotRequired: 0, Handle: 278 
+Thursday December 12, 2024 12:35:20: There is no FirmwareUpgardeStatus reg key
+Thursday December 12, 2024 12:35:20: USH related Registry entries setup.
+Thursday December 12, 2024 12:35:20: Files cleanup & Folders creation related setup.
+Thursday December 12, 2024 12:35:20: Non DCH Binaries cleanup .
+Thursday December 12, 2024 12:35:20: Non DCH Binaries DOES NOT EXIST
+Thursday December 12, 2024 12:35:20: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday December 12, 2024 12:35:20: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday December 12, 2024 12:35:20: Finished
+
+
+Thursday December 12, 2024 21:28:06: Command - FWUpgrade
+Thursday December 12, 2024 21:28:06: Stopping the service: WbioSrvc 
+Thursday December 12, 2024 21:28:06: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday December 12, 2024 21:28:06: Event: eventIndx: 0, Handle: 1a8 
+Thursday December 12, 2024 21:28:06: Event: eventIndx: 1, Handle: 1c0 
+Thursday December 12, 2024 21:28:06: Event: eventIndx: 2, Handle: 1c4 
+Thursday December 12, 2024 21:28:06: Event: eventIndx: 3, Handle: 18c 
+Thursday December 12, 2024 21:28:06: Event: eventIndx: 4, Handle: 1d0 
+Thursday December 12, 2024 21:28:12: cvif_IsUsh (0x0)
+Thursday December 12, 2024 21:28:12: The version matches - it is up do date
+Thursday December 12, 2024 21:28:12: There is no FirmwareUpgardeStatus reg key
+Thursday December 12, 2024 21:28:12: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday December 12, 2024 21:28:12: Event: FwUpgradeNotRequired: 0, Handle: 1a8 
+Thursday December 12, 2024 21:28:12: There is no FirmwareUpgardeStatus reg key
+Thursday December 12, 2024 21:28:12: USH related Registry entries setup.
+Thursday December 12, 2024 21:28:12: Files cleanup & Folders creation related setup.
+Thursday December 12, 2024 21:28:12: Non DCH Binaries cleanup .
+Thursday December 12, 2024 21:28:12: Non DCH Binaries DOES NOT EXIST
+Thursday December 12, 2024 21:28:12: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday December 12, 2024 21:28:12: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday December 12, 2024 21:28:12: Finished
+
+
+Sunday December 15, 2024 15:27:13: Command - FWUpgrade
+Sunday December 15, 2024 15:27:13: Stopping the service: WbioSrvc 
+Sunday December 15, 2024 15:27:13: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday December 15, 2024 15:27:13: Event: eventIndx: 0, Handle: 254 
+Sunday December 15, 2024 15:27:13: Event: eventIndx: 1, Handle: 25c 
+Sunday December 15, 2024 15:27:13: Event: eventIndx: 2, Handle: 27c 
+Sunday December 15, 2024 15:27:13: Event: eventIndx: 3, Handle: 280 
+Sunday December 15, 2024 15:27:13: Event: eventIndx: 4, Handle: 284 
+Sunday December 15, 2024 15:27:18: cvif_IsUsh (0x0)
+Sunday December 15, 2024 15:27:18: The version matches - it is up do date
+Sunday December 15, 2024 15:27:18: There is no FirmwareUpgardeStatus reg key
+Sunday December 15, 2024 15:27:18: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday December 15, 2024 15:27:18: Event: FwUpgradeNotRequired: 0, Handle: 254 
+Sunday December 15, 2024 15:27:18: There is no FirmwareUpgardeStatus reg key
+Sunday December 15, 2024 15:27:18: USH related Registry entries setup.
+Sunday December 15, 2024 15:27:18: Files cleanup & Folders creation related setup.
+Sunday December 15, 2024 15:27:18: Non DCH Binaries cleanup .
+Sunday December 15, 2024 15:27:18: Non DCH Binaries DOES NOT EXIST
+Sunday December 15, 2024 15:27:18: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday December 15, 2024 15:27:18: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday December 15, 2024 15:27:18: Finished
+
+
+Monday January 06, 2025 20:15:53: Command - FWUpgrade
+Monday January 06, 2025 20:15:53: Stopping the service: WbioSrvc 
+Monday January 06, 2025 20:15:53: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Monday January 06, 2025 20:15:53: Event: eventIndx: 0, Handle: 258 
+Monday January 06, 2025 20:15:53: Event: eventIndx: 1, Handle: 18c 
+Monday January 06, 2025 20:15:53: Event: eventIndx: 2, Handle: 190 
+Monday January 06, 2025 20:15:53: Event: eventIndx: 3, Handle: 27c 
+Monday January 06, 2025 20:15:53: Event: eventIndx: 4, Handle: 280 
+Monday January 06, 2025 20:15:58: cvif_IsUsh (0x0)
+Monday January 06, 2025 20:15:58: The version matches - it is up do date
+Monday January 06, 2025 20:15:58: There is no FirmwareUpgardeStatus reg key
+Monday January 06, 2025 20:15:58: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Monday January 06, 2025 20:15:58: Event: FwUpgradeNotRequired: 0, Handle: 258 
+Monday January 06, 2025 20:15:58: There is no FirmwareUpgardeStatus reg key
+Monday January 06, 2025 20:15:58: USH related Registry entries setup.
+Monday January 06, 2025 20:15:58: Files cleanup & Folders creation related setup.
+Monday January 06, 2025 20:15:58: Non DCH Binaries cleanup .
+Monday January 06, 2025 20:15:58: Non DCH Binaries DOES NOT EXIST
+Monday January 06, 2025 20:15:58: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Monday January 06, 2025 20:15:58: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Monday January 06, 2025 20:15:58: Finished
+
+
+Tuesday January 21, 2025 21:12:27: Command - FWUpgrade
+Tuesday January 21, 2025 21:12:27: Stopping the service: WbioSrvc 
+Tuesday January 21, 2025 21:12:27: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday January 21, 2025 21:12:27: Event: eventIndx: 0, Handle: 188 
+Tuesday January 21, 2025 21:12:27: Event: eventIndx: 1, Handle: 18c 
+Tuesday January 21, 2025 21:12:27: Event: eventIndx: 2, Handle: 198 
+Tuesday January 21, 2025 21:12:27: Event: eventIndx: 3, Handle: 25c 
+Tuesday January 21, 2025 21:12:27: Event: eventIndx: 4, Handle: 264 
+
+Tuesday January 21, 2025 21:18:54: Command - FWUpgrade
+Tuesday January 21, 2025 21:18:54: Stopping the service: WbioSrvc 
+Tuesday January 21, 2025 21:18:54: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Tuesday January 21, 2025 21:18:54: Event: eventIndx: 0, Handle: 284 
+Tuesday January 21, 2025 21:18:54: Event: eventIndx: 1, Handle: 288 
+Tuesday January 21, 2025 21:18:54: Event: eventIndx: 2, Handle: 28c 
+Tuesday January 21, 2025 21:18:54: Event: eventIndx: 3, Handle: 290 
+Tuesday January 21, 2025 21:18:54: Event: eventIndx: 4, Handle: 294 
+Tuesday January 21, 2025 21:18:59: cvif_IsUsh (0x0)
+Tuesday January 21, 2025 21:18:59: The version matches - it is up do date
+Tuesday January 21, 2025 21:18:59: There is no FirmwareUpgardeStatus reg key
+Tuesday January 21, 2025 21:18:59: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Tuesday January 21, 2025 21:18:59: Event: FwUpgradeNotRequired: 0, Handle: 284 
+Tuesday January 21, 2025 21:18:59: There is no FirmwareUpgardeStatus reg key
+Tuesday January 21, 2025 21:18:59: USH related Registry entries setup.
+Tuesday January 21, 2025 21:18:59: Files cleanup & Folders creation related setup.
+Tuesday January 21, 2025 21:18:59: Non DCH Binaries cleanup .
+Tuesday January 21, 2025 21:18:59: Non DCH Binaries DOES NOT EXIST
+Tuesday January 21, 2025 21:18:59: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Tuesday January 21, 2025 21:18:59: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Tuesday January 21, 2025 21:18:59: Finished
+
+
+Sunday February 23, 2025 00:46:29: Command - FWUpgrade
+Sunday February 23, 2025 00:46:29: Stopping the service: WbioSrvc 
+Sunday February 23, 2025 00:46:29: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Sunday February 23, 2025 00:46:29: Event: eventIndx: 0, Handle: 188 
+Sunday February 23, 2025 00:46:29: Event: eventIndx: 1, Handle: 18c 
+Sunday February 23, 2025 00:46:29: Event: eventIndx: 2, Handle: 1d0 
+Sunday February 23, 2025 00:46:29: Event: eventIndx: 3, Handle: 19c 
+Sunday February 23, 2025 00:46:29: Event: eventIndx: 4, Handle: 270 
+Sunday February 23, 2025 00:46:34: cvif_IsUsh (0x0)
+Sunday February 23, 2025 00:46:34: The version matches - it is up do date
+Sunday February 23, 2025 00:46:34: There is no FirmwareUpgardeStatus reg key
+Sunday February 23, 2025 00:46:34: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Sunday February 23, 2025 00:46:34: Event: FwUpgradeNotRequired: 0, Handle: 188 
+Sunday February 23, 2025 00:46:34: There is no FirmwareUpgardeStatus reg key
+Sunday February 23, 2025 00:46:34: USH related Registry entries setup.
+Sunday February 23, 2025 00:46:34: Files cleanup & Folders creation related setup.
+Sunday February 23, 2025 00:46:34: Non DCH Binaries cleanup .
+Sunday February 23, 2025 00:46:34: Non DCH Binaries DOES NOT EXIST
+Sunday February 23, 2025 00:46:34: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Sunday February 23, 2025 00:46:34: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Sunday February 23, 2025 00:46:34: Finished
+
+
+Thursday March 13, 2025 00:19:51: Command - FWUpgrade
+Thursday March 13, 2025 00:19:51: Stopping the service: WbioSrvc 
+Thursday March 13, 2025 00:19:51: Event: SUCCESS creating FW Upgrade events. Return code: 0 
+Thursday March 13, 2025 00:19:51: Event: eventIndx: 0, Handle: 258 
+Thursday March 13, 2025 00:19:51: Event: eventIndx: 1, Handle: 27c 
+Thursday March 13, 2025 00:19:51: Event: eventIndx: 2, Handle: 280 
+Thursday March 13, 2025 00:19:51: Event: eventIndx: 3, Handle: 284 
+Thursday March 13, 2025 00:19:51: Event: eventIndx: 4, Handle: 288 
+Thursday March 13, 2025 00:19:57: cvif_IsUsh (0x0)
+Thursday March 13, 2025 00:19:57: The version matches - it is up do date
+Thursday March 13, 2025 00:19:57: There is no FirmwareUpgardeStatus reg key
+Thursday March 13, 2025 00:19:57: Will not update ControlVault firmware from 4.12.1.0 to 4.12.1.0 because it's up to date
+Thursday March 13, 2025 00:19:57: Event: FwUpgradeNotRequired: 0, Handle: 258 
+Thursday March 13, 2025 00:19:57: There is no FirmwareUpgardeStatus reg key
+Thursday March 13, 2025 00:19:57: USH related Registry entries setup.
+Thursday March 13, 2025 00:19:57: Files cleanup & Folders creation related setup.
+Thursday March 13, 2025 00:19:57: Non DCH Binaries cleanup .
+Thursday March 13, 2025 00:19:57: Non DCH Binaries DOES NOT EXIST
+Thursday March 13, 2025 00:19:57: Deleting Legacy Service (If exists): Credential Vault Host Control Service
+Thursday March 13, 2025 00:19:57: Deleting Legacy Service (If exists): Credential Vault Host Storage
+Thursday March 13, 2025 00:19:57: Finished
+

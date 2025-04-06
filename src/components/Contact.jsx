@@ -20,7 +20,7 @@ const Contact = () => {
     setLoading(true);
 
     const formData = new FormData();
-    formData.append("access_key", "91b75222-92ea-4e9f-a821-018b489e92b9");
+    formData.append("access_key", "7faad6a4-2c85-4743-a2d9-ca1226d03db2");
     formData.append("name", form.name);
     formData.append("email", form.email);
     formData.append("message", form.message);
@@ -60,6 +60,9 @@ const Contact = () => {
           <p className="text-green-500 font-medium mt-4">Your message has been sent successfully!</p>
         ) : (
           <form onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
+            
+            <input type="hidden" name="botcheck" style={{ display: "none" }} />
+
             <label className="flex flex-col">
               <span className="text-white font-medium mb-4">Your Name</span>
               <input

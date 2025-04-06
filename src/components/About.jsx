@@ -7,6 +7,9 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import profilePic from "../assets/images/profile.jpg";
+
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -43,12 +46,36 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm an AI & ML Engineer with expertise in Python, Power BI, SQL, and frameworks like PyTorch, TensorFlow, and Scikit-learn. I specialize in building intelligent systems, from multi-format summarization applications to OpenCV-powered solutions. Additionally, I have strong data analysis skills using Power BI, creating interactive dashboards for insights-driven decision-making. I'm a fast learner, adaptable, and passionate about leveraging AI and data analytics to solve real-world problems. Let’s collaborate to build impactful solutions! 
-      </motion.p>
+      <div className="mt-10 flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="flex-1">
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className='text-secondary text-[17px] leading-[30px] max-w-2xl'
+          >
+            I am Fardeen, an AI & ML Engineer with expertise in Python, Power BI, SQL, and frameworks like Numpy, Pandas, PyTorch, TensorFlow, and Scikit-learn. Additionally, I have strong data analysis skills using Power BI, creating interactive dashboards for insights-driven decision-making. I'm a fast learner, adaptable, and passionate about leveraging AI and data analytics to solve real-world problems. Let’s collaborate to build impactful solutions!
+          </motion.p>
+
+          <a
+            href="https://www.linkedin.com/in/mohammedfardeenismailkhan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline hover:text-yellow-400 transition-colors duration-300 mt-4 inline-block"
+          >
+            Connect with me on LinkedIn
+          </a>
+        </div>
+
+        <motion.img
+          variants={fadeIn("right", "spring", 0.5, 1)}
+          src={profilePic}
+          alt="Fardeen"
+          className="w-60 h-60 md:w-72 md:h-72 object-cover rounded-full border-4 border-black shadow-[0_0_20px_5px_rgba(59,130,246,0.6)] -mt-10"
+
+        />
+
+      </div>
+
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
