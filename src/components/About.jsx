@@ -56,7 +56,7 @@ const About = () => {
           </motion.p>
 
           <a
-            href="https://www.linkedin.com/in/mohammedfardeenismailkhan"
+            href="https://www.linkedin.com/in/md-fardeen-ismail-khan"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 underline hover:text-yellow-400 transition-colors duration-300 mt-4 inline-block"
