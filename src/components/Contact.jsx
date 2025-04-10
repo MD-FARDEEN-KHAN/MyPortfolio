@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -48,7 +49,16 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
+    <div className="xl:mt-12 flex flex-col gap-10 overflow-hidden">
+      {/* Earth Canvas First */}
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+      >
+        <EarthCanvas />
+      </motion.div>
+
+      {/* Contact Section Second */}
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
@@ -60,7 +70,6 @@ const Contact = () => {
           <p className="text-green-500 font-medium mt-4">Your message has been sent successfully!</p>
         ) : (
           <form onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
-            
             <input type="hidden" name="botcheck" style={{ display: "none" }} />
 
             <label className="flex flex-col">
@@ -110,16 +119,28 @@ const Contact = () => {
             </button>
           </form>
         )}
+
+        {/* Larger Social Media Icons */}
+        <div className="mt-10 flex justify-center gap-8">
+          <a href="https://www.linkedin.com/in/md-fardeen-ismail-khan/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-white text-5xl hover:text-blue-500 transition duration-300 bg-gray-800 p-4 rounded-full" />
+          </a>
+          <a href="https://github.com/md-fardeen-khan" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="text-white text-5xl hover:text-gray-400 transition duration-300 bg-gray-800 p-4 rounded-full" />
+          </a>
+          <a href="https://instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className="text-white text-5xl hover:text-pink-500 transition duration-300 bg-gray-800 p-4 rounded-full" />
+          </a>
+        </div>
       </motion.div>
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-      >
-        <EarthCanvas />
-      </motion.div>
+      {/* Footer */}
+      <footer className="text-center text-gray-400 text-sm mt-8">
+        &copy; {new Date().getFullYear()} Fardeen Khan. All rights reserved.
+      </footer>
     </div>
   );
 };
 
 export default SectionWrapper(Contact, "contact");
+
