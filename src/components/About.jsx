@@ -54,15 +54,6 @@ const About = () => {
           >
             I am Fardeen, an AI & ML Engineer with expertise in Python, Power BI, SQL, and frameworks like Numpy, Pandas, PyTorch, TensorFlow, and Scikit-learn. Additionally, I have strong data analysis skills using Power BI, creating interactive dashboards for insights-driven decision-making. I'm a fast learner, adaptable, and passionate about leveraging AI and data analytics to solve real-world problems. Let’s collaborate to build impactful solutions!
           </motion.p>
-
-          <a
-            href="https://www.linkedin.com/in/md-fardeen-ismail-khan"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 underline hover:text-yellow-400 transition-colors duration-300 mt-4 inline-block"
-          >
-            Connect with me on LinkedIn
-          </a>
         </div>
 
         <motion.img
