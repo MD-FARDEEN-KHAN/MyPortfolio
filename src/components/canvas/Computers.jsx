@@ -53,26 +53,18 @@ const ComputersCanvas = () => {
     };
   }, []);
 
-  return (
-    <Canvas
-      frameloop='demand'
-      shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+  if (isMobile) {
+    return (
+      <div style={{ textAlign: "center" }}>
+        <img
+          src="/fallback-computer.png"
+          alt="Static Computer"
+          style={{ width: "100%", maxWidth: "400px", margin: "0 auto" }}
         />
-        <Computers isMobile={isMobile} />
-      </Suspense>
+      </div>
+    );
+  }
 
-      <Preload all />
-    </Canvas>
-  );
 };
 
 export default ComputersCanvas;
