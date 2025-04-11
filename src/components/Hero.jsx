@@ -1,13 +1,20 @@
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 640);
+  }, []);
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -25,21 +32,19 @@ const Hero = () => {
         </div>
       </div>
 
-      <>
-  {/* ORIGINAL CANVAS - DO NOT TOUCH, always visible */}
-  <ComputersCanvas />
+      {/* ✅ PC: Show full animation */}
+      {!isMobile && <ComputersCanvas />}
 
-  {/* MOBILE FALLBACK IMAGE - appears ONLY on mobile, overlays below canvas */}
-  <div className="sm:hidden absolute top-[120px] left-1/2 transform -translate-x-1/2 z-10">
-    <img
-      src="/fallback-computer.png"
-      alt="Computer"
-      className="w-[250px] h-auto object-contain"
-    />
-  </div>
-</>
-
-
+      {/* ✅ Mobile: Show fallback image centered */}
+      {isMobile && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black">
+          <img
+            src="/fallback-computer.png"
+            alt="Computer"
+            className="w-[250px] h-auto object-contain"
+          />
+        </div>
+      )}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
