@@ -19,13 +19,27 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Fardeen Khan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-[16px] sm:text-[18px]`}>
-          I build ML projects, analyze data, and craft smart solutions that create<br className='sm:block hidden' />
-          real impact.
+            I build ML projects, analyze data, and craft smart solutions that create<br className='sm:block hidden' />
+            real impact.
           </p>
         </div>
-
       </div>
-      <ComputersCanvas />
+
+      <>
+  {/* ORIGINAL CANVAS - DO NOT TOUCH, always visible */}
+  <ComputersCanvas />
+
+  {/* MOBILE FALLBACK IMAGE - appears ONLY on mobile, overlays below canvas */}
+  <div className="sm:hidden absolute top-[120px] left-1/2 transform -translate-x-1/2 z-10">
+    <img
+      src="/fallback-computer.png"
+      alt="Computer"
+      className="w-[250px] h-auto object-contain"
+    />
+  </div>
+</>
+
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
