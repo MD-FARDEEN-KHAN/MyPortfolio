@@ -37,7 +37,7 @@ const Hero = () => {
 
       {/* ✅ Mobile: Show fallback image centered */}
       {isMobile && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black">
+        <div className="fixed inset-0 flex items-center justify-center z-50 pointer-events-none">
           <img
             src="/fallback-computer.png"
             alt="Computer"
