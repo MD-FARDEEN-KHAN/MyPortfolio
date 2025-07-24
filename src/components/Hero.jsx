@@ -1,22 +1,33 @@
-import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";  // Import useLocation
-import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+import { useLocation } from 'react-router-dom';
+import { styles } from '../styles';
+import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
-  const location = useLocation(); // Get current route
+  const location = useLocation();
 
   useEffect(() => {
-    setIsMobile(window.innerWidth < 640);
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+
+    // Set initial value
+    handleResize();
+
+    // Add event listener
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener on unmount
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Check if the current page is the Home page
-  const isHomePage = location.pathname === "/";
+  // Determine if the current path is the homepage
+  const isHomePage = location.pathname === '/';
 
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className="relative w-full h-screen mx-auto">
       <div className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
@@ -27,26 +38,24 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white text-[40px] sm:text-[50px]`}>
             Hi, I'm <span className="text-[#915EFF]">Fardeen Khan</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 text-[16px] sm:text-[18px]`}>
-            I build ML projects, analyze data, and craft smart solutions that create<br className="sm:block hidden" />
-            real impact.
+          <p className={`${styles.heroSubText} mt-2 text-white-100 ${isMobile ? "text-[17px] font-mono mb-8" : "text-[16px] sm:text-[18px]"}`}>
+            {isMobile
+              ? "Driven by curiosity and a passion for problem-solving, I craft smart and efficient solutions through real-world tech projects. From intelligent AI systems to dynamic web applications, every project reflects my dedication to innovation and practical impact. This portfolio showcases my journey, growth, and creations. Thank you for stopping by – feel free to explore!"
+              : <>
+                  I build ML projects, analyze data, and craft smart solutions that create
+                  <br className="sm:block hidden" />
+                  real impact.
+                </>
+            }
           </p>
         </div>
       </div>
 
-      {/* ✅ PC: Show full animation */}
+      {/* Show full animation on larger screens */}
       {!isMobile && <ComputersCanvas />}
 
-      {/* ✅ Mobile: Show fallback image centered only on the Home page */}
-      {isMobile && isHomePage && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 pointer-events-none">
-          <img
-            src="/fallback-computer.png"
-            alt="Computer"
-            className="w-[250px] h-auto object-contain"
-          />
-        </div>
-      )}
+      {/* Remove fallback image from mobile devices */}
+      {/* The fallback image is no longer rendered */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
@@ -58,7 +67,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"
             />

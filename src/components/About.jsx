@@ -50,7 +50,7 @@ const About = () => {
         <div className="flex-1">
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
-            className='text-secondary text-[17px] leading-[30px] max-w-2xl'
+            className='text-secondary text-[17px] leading-[30px] max-w-2xl mb-8 md:mb-0'
           >
             I am Fardeen, an AI & ML Engineer with expertise in Python, Power BI, SQL, and frameworks like Numpy, Pandas, PyTorch, TensorFlow, and Scikit-learn. Additionally, I have strong data analysis skills using Power BI, creating interactive dashboards for insights-driven decision-making. I'm a fast learner, adaptable, and passionate about leveraging AI and data analytics to solve real-world problems. Let’s collaborate to build impactful solutions!
           </motion.p>
